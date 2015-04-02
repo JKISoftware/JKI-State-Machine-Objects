@@ -1,0 +1,1 @@
+To get started, <a href="https://www.clahub.com/agreements/JKISoftware/JKI-State-Machine-Objects">sign the Contributor License Agreement</a>.
