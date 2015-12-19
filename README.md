@@ -1,4 +1,4 @@
-![smo_logo.png]({{site.baseurl}}/images/smo_logo.png)
+![smo_logo.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/smo_logo.png)
 
 # JKI State Machine Objects
 
