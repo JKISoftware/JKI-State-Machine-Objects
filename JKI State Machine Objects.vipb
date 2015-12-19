@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-18 16:18:56" Creator="Francois Normandin" Comments="" ID="254a89e9077fe063cdd9fc41ae734aa3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-18 19:07:58" Creator="Francois Normandin" Comments="" ID="2573b0eabd9870caf35a24e56e79ba91">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>..\..</Library_Output_Folder>
     <Company_Name>JKI</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -236,7 +236,7 @@
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B8AD09D73F4ED31561DEDB2FBC0174D</GUID>
+      <GUID>0937B84A63083FD6FE21C45C5670237E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -369,7 +369,7 @@
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E414100004395CEA068E09E5B416378</GUID>
+      <GUID>99A3A22BFC1F49ECCFFD1DEB4CBB9CF5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -488,7 +488,7 @@
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>403533E2F32267AFC9CFB3E7C223075C</GUID>
+      <GUID>7C4331641407073976BF7C49A54FB286</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -621,7 +621,7 @@
         <Path>SMO\Protected\Handle Error.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8B7779948AEC35857C1099FA49596A3</GUID>
+      <GUID>DCE0544240406E0E4FDFEEA5A78414D3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
