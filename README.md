@@ -1,6 +1,6 @@
 # JKI-State-Machine-Objects
 
-JKI State Machine Objects (SMO) is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
+JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
 
 ## Installation
 
@@ -10,10 +10,11 @@ You can download and install JKI SMO with VI Package Manager.
 
 ## Usage
 
+[JKI SMO](http://jki.net/state-machine-objects)
 
 ### Examples
 
-You can find examples on how to use Caraya under the LabVIEW examples directory
+You can find examples on how to use JKI SMO under the LabVIEW examples directory
 
 `<LabVIEW>\examples\JKI\JKI-SMO`
 
@@ -35,4 +36,3 @@ JKI State Machine Objects is an open source project maintained by [JKI](http://j
 
 JKI State Machine Objects is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code 
 and compiled versions of Caraya. See LICENSE.md file for details.
-
