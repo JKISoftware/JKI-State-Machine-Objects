@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-18 19:25:20" Creator="Francois Normandin" Comments="" ID="6e82ea949df110629800c25f77592d7c">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-19 20:07:19" Creator="Francois Normandin" Comments="" ID="5b8714a48f0d9a0b91d621cb5c8a655f">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
     <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..</Library_Output_Folder>
+    <Library_Output_Folder>..\..\..</Library_Output_Folder>
     <Company_Name>JKI</Company_Name>
     <Library_Summary/>
     <Library_License>BSD</Library_License>
@@ -236,7 +236,7 @@
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>83A66C8475765541F921D651022C8190</GUID>
+      <GUID>F42BDA6B2F0CA013FF4C5F4FBF7F7B6E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -369,7 +369,7 @@
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C417DF9BCBEAABACA132ED24ACB1C18</GUID>
+      <GUID>E6B4D64279ACAF8F1E6F94190F76CE08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -488,7 +488,7 @@
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BF8829855A273FD848849E805B54B9B</GUID>
+      <GUID>6F4E7D4B3C7009592A30CD83A8CA7BCF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -607,7 +607,7 @@
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0EB26CE11B41007EEF650B0D2FCD70A1</GUID>
+      <GUID>AA0E748BB70A2EA68902D0A69C4E1887</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -642,7 +642,7 @@
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B570B660D7C6073769F9565A1D2193BD</GUID>
+      <GUID>22265ABD439D84EF5732D774656E508B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
