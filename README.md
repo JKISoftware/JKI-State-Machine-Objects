@@ -10,15 +10,18 @@ You can download and install JKI SMO with VI Package Manager.
 
 [Get JKI SMO](http://vipm.jki.net/#!/package/jki_statemachineobjects)
 
+Also, make sure to install the SMO Editor, which provides a utility VI in the Tools menu to create a new SMO from a template and rename its components.
+
+[Get SMO Editor](http://vipm.jki.net/#!/package/jki_lib_smo_editor)
+
 ## Usage
 
-[JKI SMO](http://jki.net/state-machine-objects)
+![state-machine-objects-diagram.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/state-machine-objects-diagram.png)
+
 
 ### Examples
 
-You can find examples on how to use JKI SMO under the LabVIEW examples directory
-
-`<LabVIEW>\examples\JKI\JKI-SMO`
+You can find examples on how to use JKI SMO under the palette in LabVIEW.
 
 ## Contributing
 
