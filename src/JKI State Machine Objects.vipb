@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-19 20:07:19" Creator="Francois Normandin" Comments="" ID="5b8714a48f0d9a0b91d621cb5c8a655f">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-22 19:33:29" Creator="Francois Normandin" Comments="" ID="08e33355108ffa09ca1f7a934eb248f5">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -35,7 +35,8 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>Updated the palette to include protected methods of the SMO and SMO.UI classes.</Release_Notes>
+      <Release_Notes>- Simplified the SMO.UI.Template so that it is more basic and reusable.
+- Updated SMO launcher icons.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -110,7 +111,7 @@
         <Namespace/>
       </Namespace_Overrides>
     </Source_Files>
-    <License_Agreement_Filepath>LICENSE</License_Agreement_Filepath>
+    <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
@@ -236,7 +237,7 @@
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F42BDA6B2F0CA013FF4C5F4FBF7F7B6E</GUID>
+      <GUID>A65209A0EB694D79017011070B21E328</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -369,7 +370,7 @@
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6B4D64279ACAF8F1E6F94190F76CE08</GUID>
+      <GUID>DBBC4CC01538F81876F3C55203E231EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -488,7 +489,7 @@
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F4E7D4B3C7009592A30CD83A8CA7BCF</GUID>
+      <GUID>DCA1951E4B10B714EBB78D50B4B7E4BD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -607,7 +608,7 @@
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA0E748BB70A2EA68902D0A69C4E1887</GUID>
+      <GUID>FB9356ABA02C002FD0DEC5C00E860BCB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -642,7 +643,7 @@
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>22265ABD439D84EF5732D774656E508B</GUID>
+      <GUID>C20A9E4C40A330EB79B1ED1B69868FEF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
