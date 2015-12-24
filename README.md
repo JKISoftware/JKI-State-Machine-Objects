@@ -38,7 +38,7 @@ When you are ready, click on the + button and ... voilà, you have created a bra
 
 Now, run the **[your class name].TestLauncher.vi** and you will be asynchronously launching the JKI State Machine inside the **Process.vi** method.
 
-**Have fun and let us know what you think!**
+_Have fun and let us know what you think!_
 
 
 
