@@ -38,16 +38,16 @@ When you are ready, click on the + button and ... voilà, you have created a bra
 
 Now, run the **[your class name].TestLauncher.vi** and you will be asynchronously launching the JKI State Machine inside the **Process.vi** method.
 
-![TestLauncher-VI.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/TestLauncher-VI.png)
-
-
-Have fun and let us know what you think!
+**Have fun and let us know what you think!**
 
 
 
 ## Examples
 
-You can find examples on how to use JKI SMO under the palette in LabVIEW.
+You can find a very cool example on how to use JKI SMO under the palette in LabVIEW.
+
+![SMO-Example-FP.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/SMO-Example-FP.png)
+
 
 ## Contributing
 
