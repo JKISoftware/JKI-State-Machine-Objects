@@ -2,24 +2,50 @@
 
 # JKI State Machine Objects
 
-JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
+JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriented framework based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
+
+![SMO-Usage.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/SMO-Usage.png)
+
 
 ## Installation
 
-You can download and install JKI SMO with VI Package Manager.
+Download and install the JKI SMO Editor using VI Package Manager. This will install the JKI SMO package and create a utility in the LabVIEW Tools menu to create new SMOs from a template.
+
+[Get JKI SMO and SMO Editor](http://vipm.jki.net/#!/package/jki_lib_smo_editor)
+
+You can also directly download and install JKI SMO with VI Package Manager.
 
 [Get JKI SMO](http://vipm.jki.net/#!/package/jki_statemachineobjects)
 
-Also, make sure to install the SMO Editor, which provides a utility VI in the Tools menu to create a new SMO from a template and rename its components.
 
-[Get SMO Editor](http://vipm.jki.net/#!/package/jki_lib_smo_editor)
+
 
 ## Usage
 
-![state-machine-objects-diagram.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/state-machine-objects-diagram.png)
+After installing the JKI SMO Editor, you can go to the Tools menu in LabVIEW and open the Editor window.
+
+![SMO-Editor.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/SMO-Editor.png)
+
+Then, select a destination folder, template, and name for your new SMO class. 
+
+![New-SMO-Editor.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/New-SMO-Editor.png)
 
 
-### Examples
+When you are ready, click on the + button and ... voilà, you have created a brand new SMO class.
+
+![New-SMO-Class.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/New-SMO-Class.png)
+
+
+Now, run the **[your class name].TestLauncher.vi** and you will be asynchronously launching the JKI State Machine inside the **Process.vi** method.
+
+![TestLauncher-VI.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/TestLauncher-VI.png)
+
+
+Have fun and let us know what you think!
+
+
+
+## Examples
 
 You can find examples on how to use JKI SMO under the palette in LabVIEW.
 
