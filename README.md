@@ -36,7 +36,9 @@ When you are ready, click on the + button and ... voilà, you have created a bra
 ![New-SMO-Class.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/New-SMO-Class.png)
 
 
-Now, run the **[your class name].TestLauncher.vi** and you will be asynchronously launching the JKI State Machine inside the **Process.vi** method.
+The main part of any SMO class is the _Process.vi_ method. This method consists of a [JKI State Machine](http://jki.net/state-machine) with some extra elements built into it that are part of the SMO framework. You should customize this VI to fit the needs of your application. 
+
+Now that you are an SMO framework expert, you can run the _[your class name].TestLauncher.vi_ method and you will be asynchronously launching the JKI State Machine inside the _Process.vi_ method.
 
 _Have fun and let us know what you think!_
 
