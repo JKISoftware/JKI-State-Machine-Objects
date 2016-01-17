@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2015-12-22 19:33:29" Creator="Francois Normandin" Comments="" ID="08e33355108ffa09ca1f7a934eb248f5">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-01-16 21:53:48" Creator="Francois Normandin" Comments="" ID="fec4191153d195f7ac7f0fe76abddd81">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -31,12 +31,18 @@
     <VI_Package_Configuration_File>JKI State Machine Objects.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>JKI State Machine Objects is an easy-to-use yet powerful object-oriented framework for LabVIEW.</One_Line_Description_Summary>
-      <Description>The JKI State Machine Object for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW? experts.</Description>
+      <Description>The JKI State Machine Object for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW experts.
+
+Get the Source Code:
+All the source code is available on our GitHub repository (https://github.com/JKISoftware/JKI-State-Machine-Objects) where you can download the framework and make your own changes. You can also download the built package.
+
+Discuss by Asking Questions &amp; Presenting Your Ideas:
+The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-machine-objects) is a great place to have discussions about your ideas and feedback.</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>- Simplified the SMO.UI.Template so that it is more basic and reusable.
-- Updated SMO launcher icons.</Release_Notes>
+      <Release_Notes>- Modified the process synchronization method to use Notifiers instead of resizable Randezvous.
+- Modified the SMO.UI.Template to include template event.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -237,7 +243,7 @@
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A65209A0EB694D79017011070B21E328</GUID>
+      <GUID>E0E11DB9A29A065E7B098651AC7E9E1C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -370,7 +376,7 @@
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DBBC4CC01538F81876F3C55203E231EC</GUID>
+      <GUID>C5C3DD43632BF07C210050F025CB687E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +495,7 @@
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCA1951E4B10B714EBB78D50B4B7E4BD</GUID>
+      <GUID>38F2710DBC6660CB7756653E39E0CC2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -608,7 +614,7 @@
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB9356ABA02C002FD0DEC5C00E860BCB</GUID>
+      <GUID>4F05FB679A37E07ADBBEE696417EAE84</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -643,7 +649,7 @@
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C20A9E4C40A330EB79B1ED1B69868FEF</GUID>
+      <GUID>185C23E1BE9984D52EA6F11C2E531C49</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
