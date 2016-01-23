@@ -42,7 +42,9 @@ Now that you are an SMO framework expert, you can run the _[your class name].Tes
 
 _Have fun and let us know what you think!_
 
+##Templates
 
+Make sure to check out and collaborate on the [SMO templates repository](https://github.com/JKISoftware/JKI-SMO-Templates).
 
 ## Examples
 
