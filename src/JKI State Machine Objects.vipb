@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-01-16 21:53:48" Creator="Francois Normandin" Comments="" ID="fec4191153d195f7ac7f0fe76abddd81">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-01-22 13:18:14" Creator="Francois Normandin" Comments="" ID="23668e663ff63a5c5f2b20b4d7ee8439">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
     <Library_Version>1.0.0.6</Library_Version>
@@ -31,12 +31,12 @@
     <VI_Package_Configuration_File>JKI State Machine Objects.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>JKI State Machine Objects is an easy-to-use yet powerful object-oriented framework for LabVIEW.</One_Line_Description_Summary>
-      <Description>The JKI State Machine Object for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW experts.
+      <Description>The JKI State Machine Objects (SMO) for LabVIEW is an easy-to-use yet powerful object-oriented framework, based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW experts.
 
-Get the Source Code:
+&lt;b&gt;Get the Source Code:&lt;/b&gt;
 All the source code is available on our GitHub repository (https://github.com/JKISoftware/JKI-State-Machine-Objects) where you can download the framework and make your own changes. You can also download the built package.
 
-Discuss by Asking Questions &amp; Presenting Your Ideas:
+&lt;b&gt;Discuss by Asking Questions &amp; Presenting Your Ideas:&lt;/b&gt;
 The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-machine-objects) is a great place to have discussions about your ideas and feedback.</Description>
       <Copyright/>
       <Packager>JKI</Packager>
@@ -71,7 +71,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Template_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path/>
+        <Path>&lt;application&gt;\templates\JKI\JKI SMO</Path>
       </Template_VIs>
       <File_Menu>
         <LLB>false</LLB>
@@ -243,7 +243,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0E11DB9A29A065E7B098651AC7E9E1C</GUID>
+      <GUID>7A04D186599874AA961B61FD828AAFBE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -376,7 +376,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5C3DD43632BF07C210050F025CB687E</GUID>
+      <GUID>93CDB480EA32D81B03C63E1E809AD4E1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -495,7 +495,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38F2710DBC6660CB7756653E39E0CC2F</GUID>
+      <GUID>9571DB01173C4B5EF6E3B9136D5F5A97</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -614,7 +614,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F05FB679A37E07ADBBEE696417EAE84</GUID>
+      <GUID>8A16505A643719424AB2FA071917550E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -649,7 +649,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>185C23E1BE9984D52EA6F11C2E531C49</GUID>
+      <GUID>12C38D2A41BFC2799AD4DFC04FDB48A4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
