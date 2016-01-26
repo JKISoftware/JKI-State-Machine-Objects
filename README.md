@@ -70,4 +70,4 @@ JKI State Machine Objects is an open source project maintained by [JKI](http://j
 ## License
 
 JKI State Machine Objects is distributed under the open source three clause BSD license providing everyone right to use and distribute both souce code 
-and compiled versions of Caraya. See LICENSE file for details.
+and compiled versions of JKI State Machine Objects. See LICENSE file for details.
