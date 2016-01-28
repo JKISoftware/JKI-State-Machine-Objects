@@ -1,7 +1,5 @@
 ![smo_logo.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/smo_logo.png)
 
-# JKI State Machine Objects
-
 JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriented framework based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
 
 ![SMO-Usage.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/SMO-Usage.png)
