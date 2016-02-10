@@ -25,10 +25,6 @@
 			<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 			<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		</Item>
-		<Item Name="Template Classes" Type="Folder">
-			<Item Name="SMO.Template.lvclass" Type="LVClass" URL="../SMO.Template/SMO.Template.lvclass"/>
-			<Item Name="SMO.UI.Template.lvclass" Type="LVClass" URL="../SMO.UI.Template/SMO.UI.Template.lvclass"/>
-		</Item>
 		<Item Name="JKI SMO.vipc" Type="Document" URL="../JKI SMO.vipc"/>
 		<Item Name="Example--SMO.Example.vi" Type="VI" URL="../Example--SMO.Example.vi"/>
 		<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../SMO.Example/SMO.Example.lvclass"/>
