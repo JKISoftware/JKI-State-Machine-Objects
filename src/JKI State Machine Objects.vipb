@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-03-02 18:47:59" Creator="Francois Normandin" Comments="" ID="ab3a2e269e011ca84ef7b004502facc3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-04-01 16:50:38" Creator="Francois Normandin" Comments="" ID="c39ab56ee9e326f0f6fc8d62699bf0df">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.0.1.13</Library_Version>
+    <Library_Version>1.0.2.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,8 +41,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>- Added handling of timeout on Stop method
-- Added a Stop command on Unhandled Error.</Release_Notes>
+      <Release_Notes>- Fixed an issue with stop process sequence on unhandled errors.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -243,7 +242,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CFECF5D9A7AF5CE85BA6075A231BB386</GUID>
+      <GUID>3B28D26EF1BF167B6E50CFF107468730</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -376,7 +375,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\GetPublicEvents.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>667C9B8016CFF8261D0696428FB25CBF</GUID>
+      <GUID>7EF72E91E7B4B9F04CFDA0DFCBF55540</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -495,7 +494,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>21CD067EA78DD677C14E1DB493F90A19</GUID>
+      <GUID>E8FF79395BE2D1809F5445EFF42109BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -614,7 +613,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3286344D00B78328650D4E4AF7A9F351</GUID>
+      <GUID>94AE53D8C3DEE3D63D7E706C47FA19DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -649,7 +648,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98FDE38C46B8736435B24445236C62A5</GUID>
+      <GUID>841A0A5B24B07108DD2B96C8474691BD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
