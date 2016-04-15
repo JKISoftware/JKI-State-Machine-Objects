@@ -27,6 +27,7 @@
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI SMO.vipc" Type="Document" URL="../JKI SMO.vipc"/>
+		<Item Name="Test-SMObase.vi" Type="VI" URL="../Test-SMObase.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
