@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-04-14 20:22:45" Creator="Francois Normandin" Comments="" ID="f5b07fa6b7c7d3490c09bceb1a464759">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-06-10 14:31:42" Creator="Francois Normandin" Comments="" ID="bfb1846bdfee89878a344e5fc073cddc">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.0.4.19</Library_Version>
+    <Library_Version>1.0.5.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,7 +41,8 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>-Fixed an issue with SMO Base process that would hang if called without timeout</Release_Notes>
+      <Release_Notes>[Case: 17317] Fixed the case where closing UI event would be fired twice on Macro: Exit in SMO:UI process
+[Case: 17191] Added documentation in Register Process.vi about the philosophy of the registration and process override mechanism.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -242,7 +243,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>889BE1123EA0B14FD73558D4266714FD</GUID>
+      <GUID>A943B7C247B3E8B3C16C888F2B7562F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -389,7 +390,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>JKI SMO\Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A1F75921A92D7B700A2833869D83C7F</GUID>
+      <GUID>35393CF55D139F7490D2B1A78F3E0228</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -522,7 +523,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1166770E764D8584D9FC4D62A5D713A5</GUID>
+      <GUID>89BA9DF05AEAB9B598D2AD2F680867CD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -641,7 +642,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\isProcessAllowedRun.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4F4CC4489079F38CEC9A385E36FF313A</GUID>
+      <GUID>F3F869A67CD90618EC985EC375205617</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -676,7 +677,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8F078C9C638D04A6172545540D15D20</GUID>
+      <GUID>5BCCF7EA1C7BFF8ABFA8391EA7A63896</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
