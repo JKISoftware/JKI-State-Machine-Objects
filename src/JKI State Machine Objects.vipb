@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-06-13 11:29:41" Creator="Francois Normandin" Comments="" ID="8f772002a6fb0ca77c2d551fda4a9f22">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-07-05 18:07:41" Creator="Francois Normandin" Comments="" ID="abd530b510e23d3db0551202207d2556">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.0.22</Library_Version>
+    <Library_Version>1.1.1.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,7 +41,10 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>Addition of Qualified Name and Lineage (dependency hierarchy for dependant objects - will be necessary for configuration management)</Release_Notes>
+      <Release_Notes>[Fix: 17327] SMO Base Error not connected on Launch Process
+[Fix: 17328] Event registration destroyed on error
+[Feature: 17318] Registry now exposes public events for Subsystem registration and unregistration
+[Feature] Inheritance of Attributes through composition</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -242,7 +245,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDD43D83BC2BE34A0C0836E95959CD50</GUID>
+      <GUID>51C15DC5076B373292B34F053B145FC9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -459,7 +462,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\WaitForStateChange.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4843C5DB5516A24997F76BA81CCBE892</GUID>
+      <GUID>CEEF95655912616A5B09C895CD9089B0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -592,7 +595,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B1D0AED445FFE9C079CBB2B3942E509C</GUID>
+      <GUID>DF3BBAFA78E6F47F2FD6D78C57654366</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -725,7 +728,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ThisLevelClassName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>277B0E649CE92A4C4C3D9B40559D5E18</GUID>
+      <GUID>87E4CD8B39BDB7C7AF05ADCE70A6B5FB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -760,7 +763,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70EF33552A63FC4A84E0A135E51D05A5</GUID>
+      <GUID>590401659142DB0F3EC83089A6BF0C2F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
