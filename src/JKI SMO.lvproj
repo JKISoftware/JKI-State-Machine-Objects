@@ -34,8 +34,7 @@
 				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 			</Item>
 			<Item Name="URI Parsing" Type="Folder">
-				<Item Name="Construct URI.vi" Type="VI" URL="../URI Parsing/Construct URI.vi"/>
-				<Item Name="Parse URI.vi" Type="VI" URL="../URI Parsing/Parse URI.vi"/>
+				<Item Name="URI.lvlib" Type="Library" URL="../URI Parsing/URI.lvlib"/>
 			</Item>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
 		</Item>
