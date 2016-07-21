@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-07-18 21:42:05" Creator="Francois Normandin" Comments="" ID="d03df6e5677c928cbcaad77291b7a174">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-07-20 20:29:34" Creator="Francois Normandin" Comments="" ID="1818c6ebb8cb31d46e90c5e9f5c08d32">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.5.30</Library_Version>
+    <Library_Version>1.1.6.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,8 +41,9 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature] Added onStarted and onStopped to activity diagram
-[Fix] Race condition in multiple Start-Stop SMOs as shown by Unit Test failure</Release_Notes>
+      <Release_Notes>[Feature] SMO Class banner and wire color modified to remove confusion with Event Registration refnum.
+
+[Fix] Launching SMO Processes with a strictly typed VI definition caused LabVIEW to not release references after objects were destroyed (classes locked after proper stop of objects) ref: https://labviewcoder.com/2016/07/06/quick-tip-asynchronously-launching-vis-the-right-way</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -257,7 +258,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>82CEF5F2E82416091BC9DC44D47D5230</GUID>
+      <GUID>FEAC559FE2A571CC2A263A61237BCE4A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -474,7 +475,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\WaitForStateChange.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>623D8AD5E97552BC3A096E7F8009EA49</GUID>
+      <GUID>9B015A351243EED9464E12CE5D4FE854</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -607,7 +608,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5ADC13687EA93BC9D1F3F3CC4242869D</GUID>
+      <GUID>8CCBEB7A002928591FDE75A91BFA6780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -740,7 +741,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ThisLevelClassName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58F8364CA3C463EE97BD62B585AEA423</GUID>
+      <GUID>04017E7CA4CFE3EA97D8D02645B52086</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -775,7 +776,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>213038A71B1C6E2FF1EA0C6F68BE6B66</GUID>
+      <GUID>C39743565A7DEDEF7656ADC5CFB0C95C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -824,7 +825,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35CECB86B49893C021CC302769C66C3F</GUID>
+      <GUID>1B880B15F6E295F6BB14617D59A7148F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
