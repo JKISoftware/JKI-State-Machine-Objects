@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-07-20 20:29:34" Creator="Francois Normandin" Comments="" ID="1818c6ebb8cb31d46e90c5e9f5c08d32">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-08-11 13:53:15" Creator="Francois Normandin" Comments="" ID="328dee4f16219a84e458e426459453d0">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.6.31</Library_Version>
+    <Library_Version>1.1.7.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,9 +41,11 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature] SMO Class banner and wire color modified to remove confusion with Event Registration refnum.
+      <Release_Notes>[Feature: 14] Added a method for process to call a Self-Terminate method.
 
-[Fix] Launching SMO Processes with a strictly typed VI definition caused LabVIEW to not release references after objects were destroyed (classes locked after proper stop of objects) ref: https://labviewcoder.com/2016/07/06/quick-tip-asynchronously-launching-vis-the-right-way</Release_Notes>
+[Feature: 17] Launch Dependency public method now returns the SMO reference of the created dependency.
+
+[Fix: 20] Parse URI method now correctly handles a simple path preceeded with "/" character.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -258,7 +260,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FEAC559FE2A571CC2A263A61237BCE4A</GUID>
+      <GUID>BA02B993979EA3BD102F3D64A2E65A44</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -475,7 +477,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\WaitForStateChange.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B015A351243EED9464E12CE5D4FE854</GUID>
+      <GUID>7EE2727F95B773F52BFB1D06CACCB01D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -608,7 +610,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8CCBEB7A002928591FDE75A91BFA6780</GUID>
+      <GUID>1B79331763A2CBBAE3964E5F2A01C553</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -741,7 +743,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ThisLevelClassName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>04017E7CA4CFE3EA97D8D02645B52086</GUID>
+      <GUID>EF6CCE9D386124DFF705C7276A0A15C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -776,7 +778,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C39743565A7DEDEF7656ADC5CFB0C95C</GUID>
+      <GUID>2DA26889036971416C1910CA646B169E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -825,7 +827,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1B880B15F6E295F6BB14617D59A7148F</GUID>
+      <GUID>07F4B90BA4B637F821A31488C2584B8D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
