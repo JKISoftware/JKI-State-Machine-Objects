@@ -23,6 +23,7 @@
 		<Item Name="SMO_TestSuite.lvclass" Type="LVClass" URL="../SMO_TestSuite/SMO_TestSuite.lvclass"/>
 		<Item Name="SMO_TestCase.lvclass" Type="LVClass" URL="../SMO_TestCase/SMO_TestCase.lvclass"/>
 		<Item Name="SMO.UI_TestCase.lvclass" Type="LVClass" URL="../SMO.UI_TestCase/SMO.UI_TestCase.lvclass"/>
+		<Item Name="Test-AggregationLifetimeError.vi" Type="VI" URL="../Test-AggregationLifetimeError.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="0B2DDAC1EBDDD091B2E934D251FB5792" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/0B2DDAC1EBDDD091B2E934D251FB5792"/>
@@ -276,7 +277,6 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
-				<Item Name="_TextTestResult.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_TextTestResult.llb/_TextTestResult.lvclass"/>
 			</Item>
 			<Item Name="SMO.lvclass" Type="LVClass" URL="../../src/SMO/SMO.lvclass"/>
 			<Item Name="Attribute.lvclass" Type="LVClass" URL="../../src/Support/Attribute/Attribute.lvclass"/>
