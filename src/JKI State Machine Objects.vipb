@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-08-15 11:33:06" Creator="Francois Normandin" Comments="" ID="158531f3820f5e12b5be1130628e2ab2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-09-25 08:42:51" Creator="Francois Normandin" Comments="" ID="40f2661a935d9d05849d99e26da17752">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.8.33</Library_Version>
+    <Library_Version>1.1.9.34</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,7 +41,9 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Fix: 21] Stopping aggregated dependencies no longer can produce a 1556 error on termination when dependency has already been terminated.</Release_Notes>
+      <Release_Notes>[Feature: 22] Modified the Process Sync methods to allow usign them into subVIs of the Process.vi dynamic dispatch. This allows to encapsulate a process loop into a subVI and change its reentrancy settings at will.
+
+[Feature] SMO.Example process demonstrates how to launch JKI State Machine process VI as a standalone tester without call for parent node.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -256,7 +258,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3B0F9D28C135B34B2980C5A01EE842DD</GUID>
+      <GUID>20387184B99D566F11CD597E59D7432A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -473,7 +475,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\WaitForStateChange.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F41C9F36017FBA28446259F569CA8CE</GUID>
+      <GUID>0428249385A4E84D1F44DE62550E0A19</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -606,7 +608,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>48EC797535BC0642BEEA9BAA6F44CF36</GUID>
+      <GUID>F1FA7AE1A5366342F2B9230140827242</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -739,7 +741,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ThisLevelClassName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B249B0698E00A2C7C882F08A466F973</GUID>
+      <GUID>8581BC5076D72880401AD6FD8A167B12</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -774,7 +776,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2BFF7EDBC01067370BC50F561EA6E28</GUID>
+      <GUID>71FA42F8B3848693F07EF080A2C10D17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -823,7 +825,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F79A2A93F8E285E7F5F281AA6ECA0702</GUID>
+      <GUID>AFEE41043354326943BE19E402F5377F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
