@@ -21,6 +21,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="I&amp;T" Type="Folder">
+			<Item Name="Test-SMObase.vi" Type="VI" URL="../Test-SMObase.vi"/>
+			<Item Name="Test-DynamicDependency.vi" Type="VI" URL="../_Integration Testing/Test-DynamicDependency.vi"/>
+			<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../SMO.Example/SMO.Example.lvclass"/>
+		</Item>
 		<Item Name="Registry" Type="Folder">
 			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../Registry/Registry-SMO.lvclass"/>
 		</Item>
@@ -41,7 +46,6 @@
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI SMO.vipc" Type="Document" URL="../JKI SMO.vipc"/>
-		<Item Name="Test-SMObase.vi" Type="VI" URL="../Test-SMObase.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
