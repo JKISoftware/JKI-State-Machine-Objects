@@ -22,7 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="I&amp;T" Type="Folder">
-			<Item Name="Test-SMObase.vi" Type="VI" URL="../Test-SMObase.vi"/>
+			<Item Name="Test-SMObase.vi" Type="VI" URL="../_Integration Testing/Test-SMObase.vi"/>
 			<Item Name="Test-DynamicDependency.vi" Type="VI" URL="../_Integration Testing/Test-DynamicDependency.vi"/>
 			<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../SMO.Example/SMO.Example.lvclass"/>
 		</Item>
