@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-12-15 16:43:46" Creator="Francois Normandin" Comments="" ID="b8dcacf59c9d354e2296de1befdb1c6b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-12-16 15:39:24" Creator="Francois Normandin" Comments="" ID="19d7b7f1513f59aa56488a25f79b94fb">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.12.37</Library_Version>
+    <Library_Version>1.1.13.38</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,8 +41,12 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature: 28] Completed support to stop dynamic dependencies at runtime.
-[Fix: 29] Construct URI now builds the array of arguments correctly</Release_Notes>
+      <Release_Notes>[Feature: 14] Dependents now monitor their dependencies state changes.
+Created two override hooks: "onDependencyStarted( )" and "onDependencyStopped( )".
+Dependent will clean its dependencies list on "Dependency Destroyed" event, although no hooks are exposed for that since dependency reference does not exist anymore.
+
+[Feature: 16] Dependent captures own dependency error
+Created an overridable hook for dependent "onUnhandledDependencyError( )"</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -257,7 +261,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7AD2626203AEE76D5F389F69B4CFD34F</GUID>
+      <GUID>B6417A5D6067016621B42580EF8FC20D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -488,7 +492,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Set Process Kill timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A7AF5BFCFF282EFF3A35FB6B33AB970C</GUID>
+      <GUID>F2A0E458E4DA04BD8A172375430E1148</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -621,7 +625,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FAECCD38E699E0C0A978182AEDE5CBAA</GUID>
+      <GUID>B712D48DDA1FADD6E51B951705B80C87</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -824,7 +828,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\FindDependency(byKey).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D1FCB6D8DE16A8776612F8B896E23AD</GUID>
+      <GUID>56CB004A04A02D080747ADA8B6DAA2DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -859,7 +863,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F70ADFE0368D09AD58FD6695BA20B6D</GUID>
+      <GUID>569479ED7F2893479C004D0205F0CEAE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -908,7 +912,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2746DB62B93C1932C437AB5FF66911D7</GUID>
+      <GUID>43E58797A2AD42310F42EB78E1D778A0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
