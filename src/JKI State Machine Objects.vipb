@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-12-16 15:39:24" Creator="Francois Normandin" Comments="" ID="19d7b7f1513f59aa56488a25f79b94fb">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-12-22 10:17:32" Creator="Francois Normandin" Comments="" ID="dac8f24caa3e5bc0478a6081f2fa0beb">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.13.38</Library_Version>
+    <Library_Version>1.1.14.39</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,12 +41,9 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature: 14] Dependents now monitor their dependencies state changes.
-Created two override hooks: "onDependencyStarted( )" and "onDependencyStopped( )".
-Dependent will clean its dependencies list on "Dependency Destroyed" event, although no hooks are exposed for that since dependency reference does not exist anymore.
+      <Release_Notes>[Feature:30] Dependency can now self-terminate and dependent takes care of destroying reference.
 
-[Feature: 16] Dependent captures own dependency error
-Created an overridable hook for dependent "onUnhandledDependencyError( )"</Release_Notes>
+[Feature] Added a protected method to allow dependency to message dependent (send any packet of information) which is handled by onDependencyMessage ( ) callback method.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -261,7 +258,7 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6417A5D6067016621B42580EF8FC20D</GUID>
+      <GUID>B25986CDF62C373327ADAB7A0FB77305</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +489,7 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>SMO\Set Process Kill timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2A0E458E4DA04BD8A172375430E1148</GUID>
+      <GUID>ACF6601E7937421716567C76DA7ADB3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -625,7 +622,7 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B712D48DDA1FADD6E51B951705B80C87</GUID>
+      <GUID>678B72F8A55FF5C66C3184490B66BC02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -700,20 +697,6 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         </Position>
         <Icon>00000000</Icon>
         <Path>SMO\Protected\ListThisLevelDependencies.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Stop Dependency.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>SMO\Protected\Stop Dependency.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -828,7 +811,35 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>SMO\Protected\FindDependency(byKey).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56CB004A04A02D080747ADA8B6DAA2DC</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>NotifyOwner(Message).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>SMO\Private\NotifyOwner(Message).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Stop Dependency.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>6</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>SMO\Protected\Stop Dependency.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>CD683FF6AD68C6B9D1296C6EDCB24073</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -863,7 +874,7 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>569479ED7F2893479C004D0205F0CEAE</GUID>
+      <GUID>968FC712ADDBA7EE2DA116B95D51848F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -912,7 +923,7 @@ Created an overridable hook for dependent "onUnhandledDependencyError( )"</Relea
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43E58797A2AD42310F42EB78E1D778A0</GUID>
+      <GUID>F49596433B8D5E08556100E027712412</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
