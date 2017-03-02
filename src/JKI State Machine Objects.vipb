@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2016-12-22 10:17:32" Creator="Francois Normandin" Comments="" ID="dac8f24caa3e5bc0478a6081f2fa0beb">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-02 14:54:42" Creator="Francois Normandin" Comments="" ID="819508c892930c4952623073533dca0d">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.14.39</Library_Version>
+    <Library_Version>1.1.15.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,9 +41,9 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature:30] Dependency can now self-terminate and dependent takes care of destroying reference.
+      <Release_Notes>[Feature: 31]  Stop Dependency now exposes a timeout terminal (default = -1)
 
-[Feature] Added a protected method to allow dependency to message dependent (send any packet of information) which is handled by onDependencyMessage ( ) callback method.</Release_Notes>
+[Feature] List Dependencies method has been made protected (previously private) after addition of ownership verification which is meant to prevent leaking the dependencies list in composition hierarchy. This node is supposed to be used solely to access dependencies in own inheritance tree. An unauthorized call will return an empty list.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -258,7 +258,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B25986CDF62C373327ADAB7A0FB77305</GUID>
+      <GUID>930BB47C2CD62B4CC801A70C29CE36CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +489,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Set Process Kill timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ACF6601E7937421716567C76DA7ADB3B</GUID>
+      <GUID>9AFF62A8758B8C1FAF888F113D0E6A92</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -622,7 +622,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>678B72F8A55FF5C66C3184490B66BC02</GUID>
+      <GUID>217B801383534004D5A2C346903D6DF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -839,7 +839,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\Stop Dependency.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD683FF6AD68C6B9D1296C6EDCB24073</GUID>
+      <GUID>B5580B58106CAE2E0AB315176AE91315</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -874,7 +874,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>968FC712ADDBA7EE2DA116B95D51848F</GUID>
+      <GUID>9B66023F52BCA543759994E14806B502</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -923,7 +923,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F49596433B8D5E08556100E027712412</GUID>
+      <GUID>F382503BC0766230741C92466D096C45</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
