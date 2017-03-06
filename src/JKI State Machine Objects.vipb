@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-02 14:54:42" Creator="Francois Normandin" Comments="" ID="819508c892930c4952623073533dca0d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-06 10:32:23" Creator="Francois Normandin" Comments="" ID="b47d6dbabaedf7e4275422198fc3ba33">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.15.40</Library_Version>
+    <Library_Version>1.1.16.41</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,9 +41,8 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature: 31]  Stop Dependency now exposes a timeout terminal (default = -1)
-
-[Feature] List Dependencies method has been made protected (previously private) after addition of ownership verification which is meant to prevent leaking the dependencies list in composition hierarchy. This node is supposed to be used solely to access dependencies in own inheritance tree. An unauthorized call will return an empty list.</Release_Notes>
+      <Release_Notes>[Fix: 32]  Parent process can now be overwritten by child implementation
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -258,7 +257,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>930BB47C2CD62B4CC801A70C29CE36CC</GUID>
+      <GUID>DF9B7FDCA5879FBC53025BFA06EB06DE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -489,7 +488,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Set Process Kill timeout.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AFF62A8758B8C1FAF888F113D0E6A92</GUID>
+      <GUID>06B31B4C00CB08B0319EA9A0A7232B82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -622,7 +621,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>217B801383534004D5A2C346903D6DF7</GUID>
+      <GUID>82C1BE7EFEF2B34C1028E2402ED0C792</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -839,7 +838,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\Stop Dependency.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B5580B58106CAE2E0AB315176AE91315</GUID>
+      <GUID>1572349D4EC2F874EF4FADA963AC4FFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -874,7 +873,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B66023F52BCA543759994E14806B502</GUID>
+      <GUID>A09670F866ACF959E96ED62F373E6256</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -923,7 +922,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F382503BC0766230741C92466D096C45</GUID>
+      <GUID>2ACB2EF833AD254637FE1965E2C5701F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
