@@ -24,6 +24,7 @@
 		<Item Name="I&amp;T" Type="Folder">
 			<Item Name="Test-SMObase.vi" Type="VI" URL="../_Integration Testing/Test-SMObase.vi"/>
 			<Item Name="Test-DynamicDependency.vi" Type="VI" URL="../_Integration Testing/Test-DynamicDependency.vi"/>
+			<Item Name="Test-Reservation.vi" Type="VI" URL="../_Integration Testing/Test-Reservation.vi"/>
 			<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../SMO.Example/SMO.Example.lvclass"/>
 			<Item Name="SMO.SelfTerminating.lvclass" Type="LVClass" URL="../_Integration Testing/SMO.SelfTerminating/SMO.SelfTerminating.lvclass"/>
 			<Item Name="SMO.SelfTerminatingOverride.lvclass" Type="LVClass" URL="../_Integration Testing/SMO.SelfTerminatingOverride/SMO.SelfTerminatingOverride.lvclass"/>
