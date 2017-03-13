@@ -72,9 +72,52 @@
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Test-DiscoverAPI-Executable" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{AA360D84-EE87-4D84-A617-10C2D080DBCB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{7A146106-8D1D-4E3E-B4CE-870393B47D05}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9B730450-5827-4270-BA08-438D9B08F43B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test-DiscoverAPI-Executable</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/builds/SMO/Test-DiscoverAPI-Executable</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1C809216-E6D1-4F32-BBF6-F0EF027C3516}</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/builds/SMO/Test-DiscoverAPI-Executable/Application.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/builds/SMO/Test-DiscoverAPI-Executable/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B79CDBA6-E14E-4015-A784-BDE0FD4CFD34}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Registry/Registry-SMO.lvclass/API/Discover API.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SMO.lvclass</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Test-DiscoverAPI-Executable</Property>
+				<Property Name="TgtF_internalName" Type="Str">Test-DiscoverAPI-Executable</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_productName" Type="Str">Test-DiscoverAPI-Executable</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{06DCDE5C-3D2F-4213-9C9A-324981D69ECD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
