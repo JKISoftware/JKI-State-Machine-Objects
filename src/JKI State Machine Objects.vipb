@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-14 08:52:23" Creator="Francois Normandin" Comments="" ID="40b51693d101447fd4b67c1ad7041610">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-14 08:54:20" Creator="Francois Normandin" Comments="" ID="b5ac7203ea769bc48060f41891badb5f">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
     <Library_Version>1.1.17.41</Library_Version>
@@ -42,6 +42,12 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
       <Release_Notes>[Fix: 36] Fixed an issue where Shared Dependencies that are aggregated in the Static Dependencies list would be filtered out.
+
+[Feature: 35] Adding reserve mechanism to limit accessibility to public methods to a single master.
+- Default behavior is unreserved for all methods.
+- Developer is required to implement the Check Availability on a method-per-method basis to take advantage of this feature in critical systems.
+- Technically allows a way to deny access to public API calls during critical states.
+
 </Release_Notes>
     </Description>
     <Destinations>
@@ -257,7 +263,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9AE69D22178CE8A89C3A978AF632030E</GUID>
+      <GUID>DA487E3C88D5B97B386F9D161ABFC2BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -544,7 +550,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D733E7118A9A57631EB6AB470D6B641</GUID>
+      <GUID>1E8783B19D541A69CC300361FC97F582</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +683,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DE390A239AA296350B481EC7E04137D</GUID>
+      <GUID>227A29C3A7600EDDEC5D40D0BFFE21E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -908,7 +914,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5118492923A82B6EAA91FA62B3164D59</GUID>
+      <GUID>837B026BAFC1BB5871C885E0E273311C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -943,7 +949,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02347C9B8496C01C52DAC8C570ACBD4F</GUID>
+      <GUID>10E550086CFBE52F10362E2B9A68DC02</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +998,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD02883091E623A5A267826277625593</GUID>
+      <GUID>E25BB9D93ECA7585813532480BBC935B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
