@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-14 08:54:20" Creator="Francois Normandin" Comments="" ID="b5ac7203ea769bc48060f41891badb5f">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-15 09:11:59" Creator="Francois Normandin" Comments="" ID="362918779c3dc3be7d88a93cd901cf5d">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.1.17.41</Library_Version>
+    <Library_Version>1.1.17.42</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -263,7 +263,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Example--SMO.Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DA487E3C88D5B97B386F9D161ABFC2BA</GUID>
+      <GUID>ACED82F589979F8DD6CFDBEAB5001F2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -550,7 +550,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E8783B19D541A69CC300361FC97F582</GUID>
+      <GUID>3DE6A58FF426C4A9E1F1E01DBB819B9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -683,7 +683,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>227A29C3A7600EDDEC5D40D0BFFE21E6</GUID>
+      <GUID>0BAC8FDB91D081251306E7EBBE3D5872</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -914,7 +914,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>837B026BAFC1BB5871C885E0E273311C</GUID>
+      <GUID>108B86ED0D627C608102FEB926F8DDFE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -949,7 +949,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10E550086CFBE52F10362E2B9A68DC02</GUID>
+      <GUID>20EB057AFA8F11A93DFC0D268868795C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -998,7 +998,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E25BB9D93ECA7585813532480BBC935B</GUID>
+      <GUID>8E707041D00BFF8D81591024128CC9AF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

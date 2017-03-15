@@ -25,6 +25,7 @@
 			<Item Name="Test-SMObase.vi" Type="VI" URL="../_Integration Testing/Test-SMObase.vi"/>
 			<Item Name="Test-DynamicDependency.vi" Type="VI" URL="../_Integration Testing/Test-DynamicDependency.vi"/>
 			<Item Name="Test-Reservation.vi" Type="VI" URL="../_Integration Testing/Test-Reservation.vi"/>
+			<Item Name="Test-ListSharedDependencies.vi" Type="VI" URL="../_Integration Testing/Test-ListSharedDependencies.vi"/>
 			<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../SMO.Example/SMO.Example.lvclass"/>
 			<Item Name="SMO.SelfTerminating.lvclass" Type="LVClass" URL="../_Integration Testing/SMO.SelfTerminating/SMO.SelfTerminating.lvclass"/>
 			<Item Name="SMO.SelfTerminatingOverride.lvclass" Type="LVClass" URL="../_Integration Testing/SMO.SelfTerminatingOverride/SMO.SelfTerminatingOverride.lvclass"/>
@@ -49,7 +50,6 @@
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI SMO.vipc" Type="Document" URL="../JKI SMO.vipc"/>
-		<Item Name="Test-ListSharedDependencies.vi" Type="VI" URL="../_Integration Testing/Test-ListSharedDependencies.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
