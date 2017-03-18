@@ -40,8 +40,11 @@
 				<Item Name="ArrayToCluster.vi" Type="VI" URL="../Utilities/ArrayToCluster.vi"/>
 				<Item Name="ClusterToArray.vi" Type="VI" URL="../Utilities/ClusterToArray.vi"/>
 			</Item>
+			<Item Name="Facade" Type="Folder">
+				<Item Name="SMOFacade.lvlib" Type="Library" URL="../SMOFacade/SMOFacade.lvlib"/>
+				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
+			</Item>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
-			<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../SMOFacade/SMOFacade.lvclass"/>
 		</Item>
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
