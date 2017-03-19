@@ -4,6 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">318799872</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../Facade/SMOFacade.lvclass"/>
 	<Item Name="Terminal.lvclass" Type="LVClass" URL="../Terminal/Terminal.lvclass"/>
+	<Item Name="PublicEvents.lvclass" Type="LVClass" URL="../PublicEvents/PublicEvents.lvclass">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </Library>
