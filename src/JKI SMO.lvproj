@@ -42,8 +42,10 @@
 				<Item Name="MatchInputs.vi" Type="VI" URL="../Utilities/MatchInputs.vi"/>
 			</Item>
 			<Item Name="Facade" Type="Folder">
-				<Item Name="SMOFacade.lvlib" Type="Library" URL="../SMOFacade/SMOFacade.lvlib"/>
 				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
+				<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../SMOFacade/Facade/SMOFacade.lvclass"/>
+				<Item Name="Terminal.lvclass" Type="LVClass" URL="../SMOFacade/Terminal/Terminal.lvclass"/>
+				<Item Name="PublicEvents.lvclass" Type="LVClass" URL="../SMOFacade/PublicEvents/PublicEvents.lvclass"/>
 			</Item>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
 		</Item>
