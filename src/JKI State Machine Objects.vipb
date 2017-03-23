@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-20 15:56:19" Creator="Francois Normandin" Comments="" ID="03adc2c74e344e0be04e7d759ad94fce">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-22 17:46:42" Creator="Francois Normandin" Comments="" ID="1ba3491dc923548b2b047db271643217">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.2.0.46</Library_Version>
+    <Library_Version>1.2.0.55</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -245,20 +245,6 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <VI_Title/>
       </Items_Data>
       <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Example--SMO.Example.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Example--SMO.Example.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>6</Sub_Palette_Index>
         <NameSub_Menu_Name>SMOFacade</NameSub_Menu_Name>
@@ -272,7 +258,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9A8E2BA51CB3083FAB75D4015A0FD82F</GUID>
+      <GUID>8AF6184ED9373DA11EBE77D33ABE7502</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -559,7 +545,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7B818EB9B263BD88FAD83C9A5581738F</GUID>
+      <GUID>7C1BF28179E73F0C8380ABB01ABF5532</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -692,7 +678,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E89BE832197B26052BDB75E296AF1198</GUID>
+      <GUID>7F4488E54CF09759ECD5E1A5B84EF9BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -923,7 +909,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8269D700E1896ED71CDEBB767A9591CD</GUID>
+      <GUID>917B31DE646CF592077FD120523B75F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -958,7 +944,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7D44C79A545A8538ED7BDBA5F84F3A3B</GUID>
+      <GUID>01CB09C7A26592F05E4867DE0F4C80C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1007,7 +993,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5401153210F1A5ABA7C0A49B41D9AAF</GUID>
+      <GUID>A3484E52E8B801F680370C80DC8A11C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1168,7 +1154,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A066A42A3FC6CBFBE8909C00751EACCA</GUID>
+      <GUID>E764B6B835BA1DD0708E5423B1BAB6DE</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
