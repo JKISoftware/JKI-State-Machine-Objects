@@ -41,16 +41,16 @@
 			</Item>
 		</Item>
 		<Item Name="Test Cases" Type="Folder">
-			<Item Name="Test-AggregationLifetimeError.vi" Type="VI" URL="../_test-cases/Test-AggregationLifetimeError.vi"/>
-			<Item Name="Test-DynamicDependency.vi" Type="VI" URL="../_test-cases/Test-DynamicDependency.vi"/>
-			<Item Name="Test-ListSharedDependencies.vi" Type="VI" URL="../_test-cases/Test-ListSharedDependencies.vi"/>
-			<Item Name="Test-Reservation.vi" Type="VI" URL="../_test-cases/Test-Reservation.vi"/>
 			<Item Name="Test-SMObase.vi" Type="VI" URL="../_test-cases/Test-SMObase.vi"/>
-			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
 			<Item Name="registration-test.vi" Type="VI" URL="../_test-cases/registration-test.vi"/>
 			<Item Name="unique-name-test.vi" Type="VI" URL="../_test-cases/unique-name-test.vi"/>
 			<Item Name="basic-dependency-test.vi" Type="VI" URL="../_test-cases/basic-dependency-test.vi"/>
 			<Item Name="basic-lifetime-test.vi" Type="VI" URL="../_test-cases/basic-lifetime-test.vi"/>
+			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
+			<Item Name="list-shared-dependencies.vi" Type="VI" URL="../_test-cases/list-shared-dependencies.vi"/>
+			<Item Name="large-object-count-test.vi" Type="VI" URL="../_test-cases/large-object-count-test.vi"/>
+			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
+			<Item Name="aggregation-lifetime-management.vi" Type="VI" URL="../_test-cases/aggregation-lifetime-management.vi"/>
 		</Item>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
@@ -112,6 +112,8 @@
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
+				<Item Name="Check for Contained Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check for Contained Data Type.vi"/>
+				<Item Name="Type Specific Details.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Type Specific Details.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
@@ -148,8 +150,8 @@
 			<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../../src/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 			<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Owner/Attribute.Owner.lvclass"/>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
-			<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../../src/SMO.UI/SMO.UI.lvclass"/>
-			<Item Name="SMO.Example.lvclass" Type="LVClass" URL="../../src/SMO.Example/SMO.Example.lvclass"/>
+			<Item Name="Terminal.lvclass" Type="LVClass" URL="../../src/SMOFacade/Terminal/Terminal.lvclass"/>
+			<Item Name="ArrayToCluster.vi" Type="VI" URL="../../src/Utilities/ArrayToCluster.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
