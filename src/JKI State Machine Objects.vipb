@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-03-22 17:46:42" Creator="Francois Normandin" Comments="" ID="1ba3491dc923548b2b047db271643217">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-04-13 10:38:21" Creator="Francois Normandin" Comments="" ID="eb7b68b86766f7db636e5c87c5263aa2">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.2.0.55</Library_Version>
+    <Library_Version>1.2.1.56</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,8 +41,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Feature: 34]Introducing SMO Facade for accessing SMO Components' public API generically.
-
+      <Release_Notes>[Fix: 38]enumerateStaticDependencies is now called only during startup process.
 </Release_Notes>
     </Description>
     <Destinations>
@@ -258,7 +257,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AF6184ED9373DA11EBE77D33ABE7502</GUID>
+      <GUID>A5934D3DB396070ED56DDEA165669AEF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -545,7 +544,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C1BF28179E73F0C8380ABB01ABF5532</GUID>
+      <GUID>D932AE9645F8FF3A62B174B179812525</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -678,7 +677,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F4488E54CF09759ECD5E1A5B84EF9BC</GUID>
+      <GUID>E35BE0D91E3E176547BD28F5B03A21DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -909,7 +908,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>917B31DE646CF592077FD120523B75F4</GUID>
+      <GUID>7BC05511D6B6FF92F6759E186E04682C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -944,7 +943,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>01CB09C7A26592F05E4867DE0F4C80C6</GUID>
+      <GUID>5C0A6181DA85E15CF99570F3C5066899</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -993,7 +992,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A3484E52E8B801F680370C80DC8A11C8</GUID>
+      <GUID>32DAF4AD39C72622051A204F7146F7BC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1154,7 +1153,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E764B6B835BA1DD0708E5423B1BAB6DE</GUID>
+      <GUID>F5045023FC5B0E14AF8506164CBBA300</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
