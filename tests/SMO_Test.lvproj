@@ -48,6 +48,8 @@
 			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
 			<Item Name="shared-dependency-sequential-test.vi" Type="VI" URL="../_test-cases/shared-dependency-sequential-test.vi"/>
 			<Item Name="shared-dependency-concurrency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-concurrency-test.vi"/>
+			<Item Name="shared-dependency-declareself-test.vi" Type="VI" URL="../_test-cases/shared-dependency-declareself-test.vi"/>
+			<Item Name="shared-dependency-declareself&amp;takeowner-test.vi" Type="VI" URL="../_test-cases/shared-dependency-declareself&amp;takeowner-test.vi"/>
 			<Item Name="list-shared-dependencies.vi" Type="VI" URL="../_test-cases/list-shared-dependencies.vi"/>
 			<Item Name="large-object-count-test.vi" Type="VI" URL="../_test-cases/large-object-count-test.vi"/>
 			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
