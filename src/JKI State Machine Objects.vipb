@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-04-13 10:38:21" Creator="Francois Normandin" Comments="" ID="eb7b68b86766f7db636e5c87c5263aa2">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2015-12-04 15:52:35" Modified_Date="2017-11-11 18:30:28" Creator="Francois Normandin" Comments="" ID="de147157920ef22c0f140a84db50eb09">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.2.1.56</Library_Version>
+    <Library_Version>1.3.0.57</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -41,8 +41,13 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-State-Machine-Objects</URL>
-      <Release_Notes>[Fix: 38]enumerateStaticDependencies is now called only during startup process.
-</Release_Notes>
+      <Release_Notes>[Fix: 40] onProcessStart( ) has been moved to the process thread to be symmetrical with onProcessStop( ).
+[Fix: 41] onStopped, onStarted and onProcessStopped methods must require overrides to call parent.
+[Fix: 42] Process now resets call-parent state when process terminates, to prepare process for consistent restart conditions, if requested.
+[Fix: 43] onProcessStopped now symmetrical with onProcessStart, in Process thread.
+[Feature: 45] Create method now allows a dependency to be declared as shared without specific ownership.
+[Fix: 46] dependencies are now stopped during the onStopped callback, not onStop.
+[Fix: 47] LaunchDependency method, called during onStart, is split in two parts: one that creates the dependency and takes ownership on creation (in a non-reentrant method to disallow concurrent creations), the second to start the dependency which is reentrant to allow recursive calls.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -98,6 +103,11 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -257,7 +267,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A5934D3DB396070ED56DDEA165669AEF</GUID>
+      <GUID>90BCD81832E9100F786B7B245F5AC390</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -544,7 +554,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D932AE9645F8FF3A62B174B179812525</GUID>
+      <GUID>33E07BF9A07429EF346A71238A65DC73</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +687,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E35BE0D91E3E176547BD28F5B03A21DF</GUID>
+      <GUID>88B9A03A161D86494F202363DB6DC5EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -908,7 +918,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListDependencies.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BC05511D6B6FF92F6759E186E04682C</GUID>
+      <GUID>153BD716DC17498F8D2E30AC83B24F3C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -943,7 +953,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C0A6181DA85E15CF99570F3C5066899</GUID>
+      <GUID>3D9BE4B2506D2C708F915BF9967831B5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +1002,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>32DAF4AD39C72622051A204F7146F7BC</GUID>
+      <GUID>5304FDD78C86B18E1739378BB0CA2B0F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1153,7 +1163,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5045023FC5B0E14AF8506164CBBA300</GUID>
+      <GUID>A3F0A2B1697EC2B2007B912C362C73B7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

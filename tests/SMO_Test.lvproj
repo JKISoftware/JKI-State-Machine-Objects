@@ -26,12 +26,6 @@
 			<Item Name="SMO.SelfTerminatingOverride" Type="Folder">
 				<Item Name="SMO.SelfTerminatingOverride.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.SelfTerminatingOverride/SMO.SelfTerminatingOverride.lvclass"/>
 			</Item>
-			<Item Name="SMO.A" Type="Folder">
-				<Item Name="SMO.A.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.A/SMO.A.lvclass"/>
-			</Item>
-			<Item Name="SMO.B" Type="Folder">
-				<Item Name="SMO.B.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.B/SMO.B.lvclass"/>
-			</Item>
 			<Item Name="SMO.TopLevel" Type="Folder">
 				<Item Name="Overrides" Type="Folder"/>
 				<Item Name="Private" Type="Folder"/>
@@ -39,6 +33,11 @@
 				<Item Name="SMO.TopLevel.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.lvclass"/>
 				<Item Name="SMO.TopLevel.TestLauncher.vi" Type="VI" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.TestLauncher.vi"/>
 			</Item>
+			<Item Name="SMO.A.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.A/SMO.A.lvclass"/>
+			<Item Name="SMO.B.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.B/SMO.B.lvclass"/>
+			<Item Name="SMO.B.1.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.B.1/SMO.B.1.lvclass"/>
+			<Item Name="SMO.C.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.C/SMO.C.lvclass"/>
+			<Item Name="SMO.D.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.D/SMO.D.lvclass"/>
 		</Item>
 		<Item Name="Test Cases" Type="Folder">
 			<Item Name="Test-SMObase.vi" Type="VI" URL="../_test-cases/Test-SMObase.vi"/>
@@ -47,6 +46,10 @@
 			<Item Name="basic-dependency-test.vi" Type="VI" URL="../_test-cases/basic-dependency-test.vi"/>
 			<Item Name="basic-lifetime-test.vi" Type="VI" URL="../_test-cases/basic-lifetime-test.vi"/>
 			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
+			<Item Name="shared-dependency-sequential-test.vi" Type="VI" URL="../_test-cases/shared-dependency-sequential-test.vi"/>
+			<Item Name="shared-dependency-concurrency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-concurrency-test.vi"/>
+			<Item Name="shared-dependency-declareself-test.vi" Type="VI" URL="../_test-cases/shared-dependency-declareself-test.vi"/>
+			<Item Name="shared-dependency-declareself&amp;takeowner-test.vi" Type="VI" URL="../_test-cases/shared-dependency-declareself&amp;takeowner-test.vi"/>
 			<Item Name="list-shared-dependencies.vi" Type="VI" URL="../_test-cases/list-shared-dependencies.vi"/>
 			<Item Name="large-object-count-test.vi" Type="VI" URL="../_test-cases/large-object-count-test.vi"/>
 			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
