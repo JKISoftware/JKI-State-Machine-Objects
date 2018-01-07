@@ -47,6 +47,9 @@
 				<Item Name="Terminal.lvclass" Type="LVClass" URL="../SMOFacade/Terminal/Terminal.lvclass"/>
 				<Item Name="PublicEvents.lvclass" Type="LVClass" URL="../SMOFacade/PublicEvents/PublicEvents.lvclass"/>
 			</Item>
+			<Item Name="Definitiions" Type="Folder">
+				<Item Name="def.SMO.lvclass" Type="LVClass" URL="../Definitions/def.SMO/def.SMO.lvclass"/>
+			</Item>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
 		</Item>
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>

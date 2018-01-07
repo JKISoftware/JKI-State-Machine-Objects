@@ -45,6 +45,7 @@
 			<Item Name="unique-name-test.vi" Type="VI" URL="../_test-cases/unique-name-test.vi"/>
 			<Item Name="basic-dependency-test.vi" Type="VI" URL="../_test-cases/basic-dependency-test.vi"/>
 			<Item Name="basic-lifetime-test.vi" Type="VI" URL="../_test-cases/basic-lifetime-test.vi"/>
+			<Item Name="object-generation-speedtest.vi" Type="VI" URL="../_test-cases/object-generation-speedtest.vi"/>
 			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
 			<Item Name="shared-dependency-sequential-test.vi" Type="VI" URL="../_test-cases/shared-dependency-sequential-test.vi"/>
 			<Item Name="shared-dependency-concurrency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-concurrency-test.vi"/>
@@ -155,6 +156,7 @@
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
 			<Item Name="Terminal.lvclass" Type="LVClass" URL="../../src/SMOFacade/Terminal/Terminal.lvclass"/>
 			<Item Name="ArrayToCluster.vi" Type="VI" URL="../../src/Utilities/ArrayToCluster.vi"/>
+			<Item Name="def.SMO.lvclass" Type="LVClass" URL="../../src/Definitions/def.SMO/def.SMO.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
