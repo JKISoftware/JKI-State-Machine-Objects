@@ -55,11 +55,15 @@
 			<Item Name="list-shared-dependencies.vi" Type="VI" URL="../_test-cases/list-shared-dependencies.vi"/>
 			<Item Name="large-object-count-test.vi" Type="VI" URL="../_test-cases/large-object-count-test.vi"/>
 			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
+			<Item Name="dependency-listorder-test.vi" Type="VI" URL="../_test-cases/dependency-listorder-test.vi"/>
 			<Item Name="aggregation-lifetime-management.vi" Type="VI" URL="../_test-cases/aggregation-lifetime-management.vi"/>
+			<Item Name="attributes-test.vi" Type="VI" URL="../_test-cases/attributes-test.vi"/>
+			<Item Name="attributes-identity-test.vi" Type="VI" URL="../_test-cases/attributes-identity-test.vi"/>
+			<Item Name="attributes-owner-test.vi" Type="VI" URL="../_test-cases/attributes-owner-test.vi"/>
+			<Item Name="attributes-dependencies-test.vi" Type="VI" URL="../_test-cases/attributes-dependencies-test.vi"/>
 		</Item>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
-		<Item Name="dependency-listorder-test.vi" Type="VI" URL="../_test-cases/dependency-listorder-test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
