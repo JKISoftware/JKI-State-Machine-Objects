@@ -42,6 +42,10 @@
 				<Item Name="ClusterToArray.vi" Type="VI" URL="../Utilities/ClusterToArray.vi"/>
 				<Item Name="MatchInputs.vi" Type="VI" URL="../Utilities/MatchInputs.vi"/>
 			</Item>
+			<Item Name="CfgMgmt" Type="Folder">
+				<Item Name="SMOConfigManager.lvclass" Type="LVClass" URL="../CfgMgmt/Manager/SMOConfigManager.lvclass"/>
+				<Item Name="SMOConfigManagerCollection.lvclass" Type="LVClass" URL="../CfgMgmt/Collection/SMOConfigManagerCollection.lvclass"/>
+			</Item>
 			<Item Name="Facade" Type="Folder">
 				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
 				<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../SMOFacade/Facade/SMOFacade.lvclass"/>
