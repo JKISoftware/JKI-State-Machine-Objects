@@ -45,6 +45,7 @@
 			<Item Name="registration-test.vi" Type="VI" URL="../_test-cases/registration-test.vi"/>
 			<Item Name="unique-name-test.vi" Type="VI" URL="../_test-cases/unique-name-test.vi"/>
 			<Item Name="unique-name-multiple-instances.vi" Type="VI" URL="../_test-cases/unique-name-multiple-instances.vi"/>
+			<Item Name="unique-name-differnetowner-test.vi" Type="VI" URL="../_test-cases/unique-name-differnetowner-test.vi"/>
 			<Item Name="basic-dependency-test.vi" Type="VI" URL="../_test-cases/basic-dependency-test.vi"/>
 			<Item Name="basic-lifetime-test.vi" Type="VI" URL="../_test-cases/basic-lifetime-test.vi"/>
 			<Item Name="object-generation-speedtest.vi" Type="VI" URL="../_test-cases/object-generation-speedtest.vi"/>
@@ -65,7 +66,6 @@
 		</Item>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
-		<Item Name="unique-name-differnetowner-test.vi" Type="VI" URL="../_test-cases/unique-name-differnetowner-test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
