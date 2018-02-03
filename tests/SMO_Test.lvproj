@@ -175,6 +175,8 @@
 			<Item Name="def.SMO.lvclass" Type="LVClass" URL="../../src/Definitions/def.SMO/def.SMO.lvclass"/>
 			<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
 			<Item Name="ClusterToArray.vi" Type="VI" URL="../../src/Utilities/ClusterToArray.vi"/>
+			<Item Name="SMOConfigManager.lvclass" Type="LVClass" URL="../../src/CfgMgmt/Manager/SMOConfigManager.lvclass"/>
+			<Item Name="SMOConfigManagerCollection.lvclass" Type="LVClass" URL="../../src/CfgMgmt/Collection/SMOConfigManagerCollection.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
