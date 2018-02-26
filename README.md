@@ -1,3 +1,5 @@
+*Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Objects Community Forum](https://forums.jki.net/forum/64-jki-state-machine-objects-smo/).*
+
 ![smo_logo.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/smo_logo.png)
 
 JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriented framework based on the JKI State Machine. It is the very same framework that is used by the JKI team in our everyday project work, and is the result of years of refinement by our team of LabVIEW™ experts.
@@ -14,8 +16,6 @@ Download and install the JKI SMO Editor using VI Package Manager. This will inst
 You can also directly download and install JKI SMO with VI Package Manager.
 
 [Get JKI SMO](http://vipm.jki.net/#!/package/jki_statemachineobjects)
-
-
 
 
 ## Usage
@@ -50,6 +50,9 @@ You can find a very cool example on how to use JKI SMO under the palette in LabV
 
 ![SMO-Example-FP.png](https://github.com/JKISoftware/JKI-State-Machine-Objects/blob/master/images/SMO-Example-FP.png)
 
+
+## Support
+*Do you have JKI State Machine questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI State Machine Objects Community Forum](https://forums.jki.net/forum/64-jki-state-machine-objects-smo/).*
 
 ## Contributing
 
