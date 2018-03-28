@@ -60,6 +60,7 @@
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI State Machine Objects.vipc" Type="Document" URL="../JKI State Machine Objects.vipc"/>
+		<Item Name="SMO Base Test Launcher.vi" Type="VI" URL="../SMO/SMO Base Test Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
