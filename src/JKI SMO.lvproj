@@ -44,8 +44,7 @@
 				<Item Name="Extract Element Names.vi" Type="VI" URL="../Utilities/Extract Element Names.vi"/>
 			</Item>
 			<Item Name="CfgMgmt" Type="Folder">
-				<Item Name="SMOConfig.lvlib" Type="Library" URL="../CfgMgmt/SMOConfig.lvlib"/>
-				<Item Name="CfgManager Test Launcher.vi" Type="VI" URL="../CfgMgmt/CfgManager Test Launcher.vi"/>
+				<Item Name="CfgManager.lvlib" Type="Library" URL="../CfgMgmt/CfgManager.lvlib"/>
 			</Item>
 			<Item Name="Facade" Type="Folder">
 				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
@@ -62,7 +61,6 @@
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI State Machine Objects.vipc" Type="Document" URL="../JKI State Machine Objects.vipc"/>
 		<Item Name="SMO Base Test Launcher.vi" Type="VI" URL="../SMO/SMO Base Test Launcher.vi"/>
-		<Item Name="CfgManager Cache Lifetime Tests.vi" Type="VI" URL="../CfgMgmt/CfgManager Cache Lifetime Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
