@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2018-07-11 21:58:16" Creator="Francois Normandin" Comments="" ID="7e0e62a95c58602cfc2ab467218a7c81">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-12-04 15:52:35" Modified_Date="2018-08-13 23:20:48" Creator="Francois Normandin" Comments="" ID="a97a3f6f98bfa3ed896c0ffb504a3de1">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.57</Library_Version>
+    <Library_Version>1.4.0.58</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -18,10 +18,10 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 3.0.0.8</External_Dependencies>
-      <External_Dependencies>labview_open_source_lib_configuration_manager &gt;= 1.0.0.4</External_Dependencies>
+      <External_Dependencies>labview_open_source_lib_configuration_manager &gt;= 1.0.1.5</External_Dependencies>
       <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.0.0.1</External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-3.0.0.8</Direct_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_configuration_manager-1.0.0.4</Direct_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_configuration_manager-1.0.1.5</Direct_Dependencies>
       <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.0.0.1</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -270,7 +270,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD1EE24075D1258FC6FCBFA8CD69B5B9</GUID>
+      <GUID>634AD7811434CD3B90AB086C473B5912</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -585,7 +585,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Configuration</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07A1820FCF7B447DDC17323736F63EAD</GUID>
+      <GUID>BF5399C4F4F1A1AEFB3F70073132CB4F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -718,7 +718,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC0C49828392E0E275DF0B82038D5A4E</GUID>
+      <GUID>459E466A62602759A335CBACF4D8AB13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -977,7 +977,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\reuse\CastDependenciesClusterToArray.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>937CB972417B8BC15D8D5F5036789D87</GUID>
+      <GUID>16C6050D992D44CDBFD3744C19831CE0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1012,7 +1012,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3FF00C87E1632BE466DA47242E3C41EF</GUID>
+      <GUID>E38F9FE1A4D59B9824601560097AFA40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1061,7 +1061,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14ED831C08A6885314AF8C341690F30E</GUID>
+      <GUID>3071ACEE9E55BFFAFFDDDCEA42BF7535</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1222,7 +1222,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9136441CD976265266A52325B6A695C</GUID>
+      <GUID>F42179305D1B40D87D90090DBE756B86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1313,7 +1313,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
         <Path>SMO\Protected\ListConfigurationKeys.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5ECDEF74E356CEEDF707C35813DAB2AC</GUID>
+      <GUID>84EFF568C256AEC4D56FC30868ACA1BD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
