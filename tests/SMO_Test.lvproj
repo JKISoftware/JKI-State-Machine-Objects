@@ -33,18 +33,26 @@
 				<Item Name="SMO.TopLevel.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.lvclass"/>
 				<Item Name="SMO.TopLevel.TestLauncher.vi" Type="VI" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.TestLauncher.vi"/>
 			</Item>
+			<Item Name="SMO.Configurable" Type="Folder">
+				<Item Name="SMO.Configurable.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.Configurable/SMO.Configurable.lvclass"/>
+				<Item Name="TEST_CONFIGURABLE SMO.vi" Type="VI" URL="../_test-support-SMOs/SMO.Configurable/TEST_CONFIGURABLE SMO.vi"/>
+			</Item>
 			<Item Name="SMO.A.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.A/SMO.A.lvclass"/>
 			<Item Name="SMO.B.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.B/SMO.B.lvclass"/>
 			<Item Name="SMO.B.1.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.B.1/SMO.B.1.lvclass"/>
 			<Item Name="SMO.C.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.C/SMO.C.lvclass"/>
 			<Item Name="SMO.D.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.D/SMO.D.lvclass"/>
+			<Item Name="SMO.E.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.E/SMO.E.lvclass"/>
 		</Item>
 		<Item Name="Test Cases" Type="Folder">
 			<Item Name="Test-SMObase.vi" Type="VI" URL="../_test-cases/Test-SMObase.vi"/>
 			<Item Name="registration-test.vi" Type="VI" URL="../_test-cases/registration-test.vi"/>
 			<Item Name="unique-name-test.vi" Type="VI" URL="../_test-cases/unique-name-test.vi"/>
+			<Item Name="unique-name-multiple-instances.vi" Type="VI" URL="../_test-cases/unique-name-multiple-instances.vi"/>
+			<Item Name="unique-name-differnetowner-test.vi" Type="VI" URL="../_test-cases/unique-name-differnetowner-test.vi"/>
 			<Item Name="basic-dependency-test.vi" Type="VI" URL="../_test-cases/basic-dependency-test.vi"/>
 			<Item Name="basic-lifetime-test.vi" Type="VI" URL="../_test-cases/basic-lifetime-test.vi"/>
+			<Item Name="object-generation-speedtest.vi" Type="VI" URL="../_test-cases/object-generation-speedtest.vi"/>
 			<Item Name="shared-dependency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-test.vi"/>
 			<Item Name="shared-dependency-sequential-test.vi" Type="VI" URL="../_test-cases/shared-dependency-sequential-test.vi"/>
 			<Item Name="shared-dependency-concurrency-test.vi" Type="VI" URL="../_test-cases/shared-dependency-concurrency-test.vi"/>
@@ -53,7 +61,17 @@
 			<Item Name="list-shared-dependencies.vi" Type="VI" URL="../_test-cases/list-shared-dependencies.vi"/>
 			<Item Name="large-object-count-test.vi" Type="VI" URL="../_test-cases/large-object-count-test.vi"/>
 			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
+			<Item Name="dependency-listorder-test.vi" Type="VI" URL="../_test-cases/dependency-listorder-test.vi"/>
+			<Item Name="dependency-callerregistration-test.vi" Type="VI" URL="../_test-cases/dependency-callerregistration-test.vi"/>
 			<Item Name="aggregation-lifetime-management.vi" Type="VI" URL="../_test-cases/aggregation-lifetime-management.vi"/>
+			<Item Name="attributes-test.vi" Type="VI" URL="../_test-cases/attributes-test.vi"/>
+			<Item Name="attributes-identity-test.vi" Type="VI" URL="../_test-cases/attributes-identity-test.vi"/>
+			<Item Name="attributes-owner-test.vi" Type="VI" URL="../_test-cases/attributes-owner-test.vi"/>
+			<Item Name="attributes-dependencies-test.vi" Type="VI" URL="../_test-cases/attributes-dependencies-test.vi"/>
+			<Item Name="configmgr-test.vi" Type="VI" URL="../_test-cases/configmgr-test.vi"/>
+			<Item Name="configmgr-encoding-test.vi" Type="VI" URL="../_test-cases/configmgr-encoding-test.vi"/>
+			<Item Name="configmgr-simpleread-test.vi" Type="VI" URL="../_test-cases/configmgr-simpleread-test.vi"/>
+			<Item Name="configmgr-variant-test.vi" Type="VI" URL="../_test-cases/configmgr-variant-test.vi"/>
 		</Item>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
@@ -68,12 +86,11 @@
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
@@ -117,6 +134,38 @@
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
 				<Item Name="Check for Contained Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check for Contained Data Type.vi"/>
 				<Item Name="Type Specific Details.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Type Specific Details.ctl"/>
+				<Item Name="TD_Refnum Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Refnum Kind.ctl"/>
+				<Item Name="Type Descriptor I16.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16.ctl"/>
+				<Item Name="Type Descriptor I16 Array.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Descriptor I16 Array.ctl"/>
+				<Item Name="TD_Get Ref Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Ref Info.vi"/>
+				<Item Name="Type Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Code.ctl"/>
+				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
+				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
+				<Item Name="TD_Get Cluster Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Cluster Information.vi"/>
+				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
+				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
+				<Item Name="TD_Create Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Cluster.vi"/>
+				<Item Name="TD_Get Array Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Array Information.vi"/>
+				<Item Name="TD_Length.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Length.ctl"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="TD_Create Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Array.vi"/>
+				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
+				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/KVP Parser.vi"/>
+				<Item Name="CfgManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Configuration Manager/CfgManager.lvlib"/>
+				<Item Name="ConfigManager.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/ConfigManager.lvclass"/>
+				<Item Name="Create Cache.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Cache/Create Cache.vi"/>
+				<Item Name="ConfigManager.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/ConfigManager.lvclass/ConfigManager.ctl"/>
+				<Item Name="Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Serializer/Serializer.lvclass"/>
+				<Item Name="Encoding.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Encoding/Encoding.lvclass"/>
+				<Item Name="Encryption.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Encryption/Encryption.lvclass"/>
+				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/Write.vi"/>
+				<Item Name="Read Serializer.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/Read Serializer.vi"/>
+				<Item Name="Read Encoding.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/Read Encoding.vi"/>
+				<Item Name="Read Encryption.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Configuration Manager/Manager/Read Encryption.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
@@ -155,6 +204,9 @@
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
 			<Item Name="Terminal.lvclass" Type="LVClass" URL="../../src/SMOFacade/Terminal/Terminal.lvclass"/>
 			<Item Name="ArrayToCluster.vi" Type="VI" URL="../../src/Utilities/ArrayToCluster.vi"/>
+			<Item Name="def.SMO.lvclass" Type="LVClass" URL="../../src/Definitions/def.SMO/def.SMO.lvclass"/>
+			<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
+			<Item Name="ClusterToArray.vi" Type="VI" URL="../../src/Utilities/ClusterToArray.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
