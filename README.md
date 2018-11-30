@@ -11,11 +11,7 @@ JKI State Machine Objects™ (SMO) is an easy-to-use yet powerful object-oriente
 
 Download and install the JKI SMO Editor using VI Package Manager. This will install the JKI SMO package and create a utility in the LabVIEW Tools menu to create new SMOs from a template.
 
-[Get JKI SMO and SMO Editor](http://vipm.jki.net/#!/package/jki_lib_smo_editor)
-
-You can also directly download and install JKI SMO with VI Package Manager.
-
-[Get JKI SMO](http://vipm.jki.net/#!/package/jki_statemachineobjects)
+[Get JKI SMO and SMO Editor](https://resources.jki.net/state-machine-objects)
 
 
 ## Usage
