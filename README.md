@@ -13,6 +13,11 @@ Download and install the JKI SMO Editor using VI Package Manager. This will inst
 
 [Get JKI SMO and SMO Editor](https://resources.jki.net/state-machine-objects)
 
+## Useful Videos
+
+- [Getting Started with JKI's State Machine Objects Framework](https://www.youtube.com/watch?v=_1PF9-Ueyz4&index=1&list=PL046EUR2eLcfhsXawyMPs_1Lg4HjBOo_F)
+- [Adding a Splash Screen to your Application using the SMO Framework](https://www.youtube.com/watch?v=vS3MzBOCeUs&index=2&list=PL046EUR2eLcfhsXawyMPs_1Lg4HjBOo_F)
+- [Creating Hardware Abstraction Layers in LabVIEW](https://www.youtube.com/watch?v=qrzBYIrA-cs&index=3&list=PL046EUR2eLcfhsXawyMPs_1Lg4HjBOo_F)
 
 ## Usage
 
