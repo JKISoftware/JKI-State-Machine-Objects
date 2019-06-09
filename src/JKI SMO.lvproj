@@ -29,7 +29,6 @@
 				<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support/Attribute/Attribute.lvclass"/>
 				<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Support/Attribute.Owner/Attribute.Owner.lvclass"/>
 				<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Support/Attribute.Identity/Attribute.Identity.lvclass"/>
-				<Item Name="Attribute.Config.lvclass" Type="LVClass" URL="../Support/Attribute.Config/Attribute.Config.lvclass"/>
 				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
 				<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
 				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
@@ -58,7 +57,6 @@
 		<Item Name="SMO.UI.lvclass" Type="LVClass" URL="../SMO.UI/SMO.UI.lvclass"/>
 		<Item Name="JKI State Machine Objects.vipc" Type="Document" URL="../JKI State Machine Objects.vipc"/>
 		<Item Name="SMO Base Test Launcher.vi" Type="VI" URL="../SMO/SMO Base Test Launcher.vi"/>
-		<Item Name="SMO Base Test Launcher (Configurable).vi" Type="VI" URL="../SMO/SMO Base Test Launcher (Configurable).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -90,20 +88,6 @@
 				<Item Name="Type Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Enum.ctl"/>
 				<Item Name="Get Type Code from I16 Array And Pos.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Get Type Code from I16 Array And Pos.vi"/>
 				<Item Name="TD_Get Cluster Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Cluster Information.vi"/>
-				<Item Name="OpenVariant.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/Variant/OpenVariant.lvlib"/>
-				<Item Name="OpenDescriptor.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/TypeDescriptor/OpenDescriptor.lvlib"/>
-				<Item Name="TD_Create Cluster.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Cluster.vi"/>
-				<Item Name="TD_Get Array Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Array Information.vi"/>
-				<Item Name="TD_Length.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Length.ctl"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="TD_Create Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Create Array.vi"/>
-				<Item Name="TD_Compare Types.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Compare Types.vi"/>
-				<Item Name="KVP Parser.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source/Data Manipulation/KVP Parser.vi"/>
-				<Item Name="CfgManager.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Configuration Manager/CfgManager.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
