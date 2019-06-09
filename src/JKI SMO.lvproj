@@ -26,12 +26,7 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Attributes" Type="Folder">
-				<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support/Attribute/Attribute.lvclass"/>
-				<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Support/Attribute.Owner/Attribute.Owner.lvclass"/>
-				<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Support/Attribute.Identity/Attribute.Identity.lvclass"/>
-				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
-				<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
-				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
+				<Item Name="SMOAttributes.lvlib" Type="Library" URL="../Support/SMOAttributes.lvlib"/>
 			</Item>
 			<Item Name="URI Parsing" Type="Folder">
 				<Item Name="URI.lvlib" Type="Library" URL="../URI Parsing/URI.lvlib"/>
