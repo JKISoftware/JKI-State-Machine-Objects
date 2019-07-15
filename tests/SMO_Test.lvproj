@@ -30,6 +30,9 @@
 				<Item Name="SMO.TopLevel.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.lvclass"/>
 				<Item Name="SMO.TopLevel.TestLauncher.vi" Type="VI" URL="../_test-support-SMOs/SMO.TopLevel/SMO.TopLevel.TestLauncher.vi"/>
 			</Item>
+			<Item Name="SMO.ErrorInjection" Type="Folder">
+				<Item Name="SMO.ErrorInjection.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.ErrorInjection/SMO.ErrorInjection.lvclass"/>
+			</Item>
 			<Item Name="SMO.A.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.A/SMO.A.lvclass"/>
 		</Item>
 		<Item Name="Test Cases" Type="Folder">
@@ -56,6 +59,9 @@
 			<Item Name="attributes-owner-test.vi" Type="VI" URL="../_test-cases/attributes-owner-test.vi"/>
 			<Item Name="attributes-dependencies-test.vi" Type="VI" URL="../_test-cases/attributes-dependencies-test.vi"/>
 		</Item>
+		<Item Name="Testable Interface" Type="Folder">
+			<Item Name="Attribute.UnitTestable.lvclass" Type="LVClass" URL="../_example/Attribute.UnitTestable/Attribute.UnitTestable.lvclass"/>
+		</Item>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -72,8 +78,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
-				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Add State(s) to Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Add State(s) to Queue__jki_lib_state_machine.vi"/>
+				<Item Name="Parse State Queue__jki_lib_state_machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_jki_lib_state_machine.llb/Parse State Queue__jki_lib_state_machine.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
