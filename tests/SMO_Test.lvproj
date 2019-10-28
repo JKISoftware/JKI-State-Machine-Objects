@@ -61,9 +61,7 @@
 			<Item Name="attributes-owner-test.vi" Type="VI" URL="../_test-cases/attributes-owner-test.vi"/>
 			<Item Name="attributes-dependencies-test.vi" Type="VI" URL="../_test-cases/attributes-dependencies-test.vi"/>
 		</Item>
-		<Item Name="Testable Interface" Type="Folder">
-			<Item Name="Attribute.UnitTestable.lvclass" Type="LVClass" URL="../_example/Attribute.UnitTestable/Attribute.UnitTestable.lvclass"/>
-		</Item>
+		<Item Name="Testable Interface" Type="Folder"/>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
