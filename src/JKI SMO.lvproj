@@ -26,10 +26,15 @@
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="Attributes" Type="Folder">
-				<Item Name="SMOAttributes.lvlib" Type="Library" URL="../Support/SMOAttributes.lvlib"/>
+				<Item Name="Attribute.lvclass" Type="LVClass" URL="../Support/Attribute/Attribute.lvclass"/>
+				<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Support/Attribute.Identity/Attribute.Identity.lvclass"/>
+				<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Support/Attribute.Owner/Attribute.Owner.lvclass"/>
+				<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
+				<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
+				<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 			</Item>
 			<Item Name="Dependency" Type="Folder">
-				<Item Name="SMODependency.lvclass" Type="LVClass" URL="../Dependency/SMODependency.lvclass"/>
+				<Item Name="Dependency.lvclass" Type="LVClass" URL="../Dependency/Dependency.lvclass"/>
 			</Item>
 			<Item Name="URI Parsing" Type="Folder">
 				<Item Name="URI.lvlib" Type="Library" URL="../URI Parsing/URI.lvlib"/>
@@ -43,7 +48,7 @@
 			<Item Name="Facade" Type="Folder">
 				<Item Name="Test SMO Facade.vi" Type="VI" URL="../SMOFacade/Test SMO Facade.vi"/>
 				<Item Name="SMOFacade.lvclass" Type="LVClass" URL="../SMOFacade/Facade/SMOFacade.lvclass"/>
-				<Item Name="SMOTerminal.lvclass" Type="LVClass" URL="../SMOFacade/Terminal/SMOTerminal.lvclass"/>
+				<Item Name="Terminal.lvclass" Type="LVClass" URL="../SMOFacade/Terminal/Terminal.lvclass"/>
 				<Item Name="PublicEvents.lvclass" Type="LVClass" URL="../SMOFacade/PublicEvents/PublicEvents.lvclass"/>
 			</Item>
 			<Item Name="Definitions" Type="Folder">

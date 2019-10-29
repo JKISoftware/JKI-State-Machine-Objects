@@ -5,10 +5,4 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Attribute.lvclass" Type="LVClass" URL="../Attribute/Attribute.lvclass"/>
-	<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../Attribute.Identity/Attribute.Identity.lvclass"/>
-	<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../Attribute.Owner/Attribute.Owner.lvclass"/>
-	<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
-	<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
-	<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 </Library>

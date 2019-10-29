@@ -399,11 +399,17 @@
 			</Item>
 			<Item Name="SMO.lvclass" Type="LVClass" URL="../../src/SMO/SMO.lvclass"/>
 			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../../src/Registry/Registry-SMO.lvclass"/>
-			<Item Name="SMODependency.lvclass" Type="LVClass" URL="../../src/Dependency/SMODependency.lvclass"/>
 			<Item Name="def.SMO.lvclass" Type="LVClass" URL="../../src/Definitions/def.SMO/def.SMO.lvclass"/>
-			<Item Name="SMOAttributes.lvlib" Type="Library" URL="../../src/Support/SMOAttributes.lvlib"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
-			<Item Name="SMOTerminal.lvclass" Type="LVClass" URL="../../src/SMOFacade/Terminal/SMOTerminal.lvclass"/>
+			<Item Name="Attribute.Owner.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Owner/Attribute.Owner.lvclass"/>
+			<Item Name="Attribute.lvclass" Type="LVClass" URL="../../src/Support/Attribute/Attribute.lvclass"/>
+			<Item Name="Attribute.Identity.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Identity/Attribute.Identity.lvclass"/>
+			<Item Name="Terminal.lvclass" Type="LVClass" URL="../../src/SMOFacade/Terminal/Terminal.lvclass"/>
+			<Item Name="ArrayToCluster.vi" Type="VI" URL="../../src/Utilities/ArrayToCluster.vi"/>
+			<Item Name="Attribute.SharedResource.lvclass" Type="LVClass" URL="../../src/Support/Attribute.SharedResource/Attribute.SharedResource.lvclass"/>
+			<Item Name="Attribute.Dependencies.lvclass" Type="LVClass" URL="../../src/Support/Attribute.Dependencies/Attribute.Dependencies.lvclass"/>
+			<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../../src/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
+			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
