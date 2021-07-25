@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-25 08:58:36" Creator="Francois Normandin" Comments="" ID="cadd7a0a7553208f34c6b523288ec10d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-25 09:27:04" Creator="Francois Normandin" Comments="" ID="e8d57210248ae0779a2c940968d291b5">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.61</Library_Version>
+    <Library_Version>1.4.0.62</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -68,6 +68,7 @@ Patrick Irvin (@ciozi137)
 Jim Kring (@jimkring)
 Nathan Murphy (@nathan-murphy)
 Francois Normandin (@francois-normandin)
+Ricardo Guilherme Schmidt (@3esmit)
 </Release_Notes>
     </Description>
     <Destinations>
@@ -305,7 +306,7 @@ Francois Normandin (@francois-normandin)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2ED8082ADF6BF44875F9515D1C452247</GUID>
+      <GUID>D9317E73CCB0CDC98E30A51333C2CBB4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -592,7 +593,7 @@ Francois Normandin (@francois-normandin)
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85A6105550FB40CD886D830BD31F7B4A</GUID>
+      <GUID>F3AFD4D6B5CAC3F933C188BEE7326E5E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -725,7 +726,7 @@ Francois Normandin (@francois-normandin)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA12BF9C7F6FA538491D37614FBC9795</GUID>
+      <GUID>7F0A242DE79FB8ED6D96F121A7F19BE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -945,20 +946,6 @@ Francois Normandin (@francois-normandin)
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>SetAttributeByName.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>4</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>SMO\Protected\SetAttributeByName.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>CastArrayDependenciesToClusterOrClass.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -984,7 +971,21 @@ Francois Normandin (@francois-normandin)
         <Path>SMO\reuse\CastDependenciesClusterToArray.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6DEFD8ACCD142B93674882C78355187</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>SetAttributeByName.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>SMO\Protected\SetAttributeByName.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>DE23856D800DC6BBE328E7AC83CEB7B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1019,7 +1020,7 @@ Francois Normandin (@francois-normandin)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BE2A2CFD9B2C7A41B1F805EAF16998D</GUID>
+      <GUID>8B783EBAA950FB9F25E1137868D130C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1068,7 +1069,7 @@ Francois Normandin (@francois-normandin)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7A63945765B8E119FD69D27F21493ACD</GUID>
+      <GUID>57CCA97005998D14533DFB68AC1BCD21</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1229,7 +1230,7 @@ Francois Normandin (@francois-normandin)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D1AA9BF67AC50FF395834F0DEABC15C4</GUID>
+      <GUID>5AC822D2992504FA300CD12A590791D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1278,7 +1279,7 @@ Francois Normandin (@francois-normandin)
         <Path>Templates\ProcessTemplate (JKI-SM).vi</Path>
         <VI_Title>Default Process Template</VI_Title>
       </Items_Data>
-      <GUID>29B61D776B3DEF42DF6CC29C698D1229</GUID>
+      <GUID>859315D86920682978427063CF7AA261</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
