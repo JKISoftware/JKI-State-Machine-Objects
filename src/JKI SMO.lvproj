@@ -57,6 +57,8 @@
 			</Item>
 			<Item Name="ProcessTemplates" Type="Folder">
 				<Item Name="ProcessTemplate (JKI-SM).vi" Type="VI" URL="../Templates/ProcessTemplate (JKI-SM).vi"/>
+				<Item Name="ProcessTemplate (TimedLoop).vi" Type="VI" URL="../Templates/ProcessTemplate (TimedLoop).vi"/>
+				<Item Name="ProcessTemplate (Minimal).vi" Type="VI" URL="../Templates/ProcessTemplate (Minimal).vi"/>
 			</Item>
 		</Item>
 		<Item Name="SMO.lvclass" Type="LVClass" URL="../SMO/SMO.lvclass"/>
