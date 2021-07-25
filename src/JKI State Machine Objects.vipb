@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-25 09:27:04" Creator="Francois Normandin" Comments="" ID="e8d57210248ae0779a2c940968d291b5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-25 17:05:37" Creator="Francois Normandin" Comments="" ID="0156214a1ee7f296b33b2577e76d3dd0">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
     <Library_Version>1.4.0.62</Library_Version>
@@ -306,7 +306,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9317E73CCB0CDC98E30A51333C2CBB4</GUID>
+      <GUID>283A6E2FA72F0C7FEA95DB0184195820</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +593,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3AFD4D6B5CAC3F933C188BEE7326E5E</GUID>
+      <GUID>275F235217D80D3DE86E41181D00CB25</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -726,7 +726,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7F0A242DE79FB8ED6D96F121A7F19BE4</GUID>
+      <GUID>28197A1E2D93F88D06FD6820C01822B6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -985,7 +985,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\Protected\SetAttributeByName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE23856D800DC6BBE328E7AC83CEB7B9</GUID>
+      <GUID>B2A23BBAAA310E4ABF9E62448F4FED03</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1020,7 +1020,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B783EBAA950FB9F25E1137868D130C6</GUID>
+      <GUID>315B7212F45288A0A03FC10B62E3C7FE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1069,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>57CCA97005998D14533DFB68AC1BCD21</GUID>
+      <GUID>024FADE630DB6E67FCE96AD28C7CBB3B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1230,7 +1230,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5AC822D2992504FA300CD12A590791D6</GUID>
+      <GUID>4AF3A05DF05469873185E3E6E0E5307F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1279,7 +1279,35 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Templates\ProcessTemplate (JKI-SM).vi</Path>
         <VI_Title>Default Process Template</VI_Title>
       </Items_Data>
-      <GUID>859315D86920682978427063CF7AA261</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>ProcessTemplate (TimedLoop).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Templates\ProcessTemplate (TimedLoop).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>ProcessTemplate (Minimal).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Templates\ProcessTemplate (Minimal).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>91D7E93AADB74F47BA01F6B74EE05833</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
