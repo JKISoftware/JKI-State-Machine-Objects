@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-25 17:05:37" Creator="Francois Normandin" Comments="" ID="0156214a1ee7f296b33b2577e76d3dd0">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-07-26 07:50:06" Creator="Francois Normandin" Comments="" ID="4d7217f3807818c04c27b3d7d84385e4">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.62</Library_Version>
+    <Library_Version>1.4.0.64</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -306,7 +306,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>283A6E2FA72F0C7FEA95DB0184195820</GUID>
+      <GUID>8C84E07F90DBBE2A4A3E2F4A8C57ACC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -593,7 +593,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\CheckAccessibility.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>275F235217D80D3DE86E41181D00CB25</GUID>
+      <GUID>395BACBEF5804F33D14EA24E6978AEEC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -726,7 +726,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>28197A1E2D93F88D06FD6820C01822B6</GUID>
+      <GUID>317E79B7BD4E3A1D3725947113CCF5FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -985,7 +985,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\Protected\SetAttributeByName.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B2A23BBAAA310E4ABF9E62448F4FED03</GUID>
+      <GUID>44C75BAC4C0B67C3DDB923245DFF52F4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1020,7 +1020,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>315B7212F45288A0A03FC10B62E3C7FE</GUID>
+      <GUID>F2C4BA4A1BDE6740EC72E771AAF36E5B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1069,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>024FADE630DB6E67FCE96AD28C7CBB3B</GUID>
+      <GUID>94B9146DDDD1B7F378D4C01472EC7DC5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1230,7 +1230,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4AF3A05DF05469873185E3E6E0E5307F</GUID>
+      <GUID>3FA74CF649A5C907205FA72587714D79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1307,7 +1307,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Templates\ProcessTemplate (Minimal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>91D7E93AADB74F47BA01F6B74EE05833</GUID>
+      <GUID>DB86056E80E5C19814B55CA824B0E204</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
