@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-11-12 06:47:29" Creator="Francois Normandin" Comments="" ID="693000f1140f03aa8371fb54118c7fe6">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-12-19 17:37:45" Creator="Francois Normandin" Comments="" ID="8c3e576b12473fcbb33bcc67b1e95b84">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.67</Library_Version>
+    <Library_Version>1.4.0.68</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -61,6 +61,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
 [Feature: 78] Addition of two callbacks wrapping the startup of Static Dependencies
 [Feature: 79] Support for pre-start Attributes in SMO object
 [Feature: 80] List Public Attributes by Name
+[Fix: 81] Process registration is now using re-entrancy to speed up sibling classes load time
 
 Contributors
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
@@ -210,6 +211,7 @@ Ricardo Guilherme Schmidt (@3esmit)
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>
@@ -309,7 +311,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C867CCD65A47C92E25E2D99C27926A7A</GUID>
+      <GUID>3DA1435796F776B306EADE0D505CF238</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -624,7 +626,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\SMO Activity Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D581B0D2A59B531BAB067B5490CAA6A</GUID>
+      <GUID>6D7823E484E832C2FE04B337BBC1EF51</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -757,7 +759,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C25DAE33DE845AD53BA05E2467A72139</GUID>
+      <GUID>5D59A595601A7A46C1FB8B6C47F7CEBA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1044,7 +1046,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\Protected\ListPublicAttributes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E0F9B3915D707541A4211E22991AA8C</GUID>
+      <GUID>8B4CD4AC09331CF7C2F291389435D65C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1079,7 +1081,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0AB8D3567E7F1EDF250CD592BA6C0A04</GUID>
+      <GUID>0DD7DC8452EC5685185D2BA8401EF5FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1128,7 +1130,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1622AA53A1EE4994285E8F50A73BBBB9</GUID>
+      <GUID>8AAC3AAEB51BFB080273DF2BB56E2868</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1289,7 +1291,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D89DE22FE6DA4B48A262D2B2944BE612</GUID>
+      <GUID>1817E2A4FD60AFAEE5FA39AAB96ED9D0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1366,7 +1368,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Templates\ProcessTemplate (Minimal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49C22F679E4532190E6BBAC677388B8D</GUID>
+      <GUID>AF3C15B4A7626E5DE0539FD508C656FF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
