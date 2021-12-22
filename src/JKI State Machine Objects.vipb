@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-12-19 17:37:45" Creator="Francois Normandin" Comments="" ID="8c3e576b12473fcbb33bcc67b1e95b84">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-12-21 20:32:56" Creator="Francois Normandin" Comments="" ID="c6dba435887950d36376c317d3168948">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.68</Library_Version>
+    <Library_Version>1.4.0.69</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -62,6 +62,8 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
 [Feature: 79] Support for pre-start Attributes in SMO object
 [Feature: 80] List Public Attributes by Name
 [Fix: 81] Process registration is now using re-entrancy to speed up sibling classes load time
+[Fix: 83] StopProcess now correctly stops dynamic dependencies that were started within the SMO process
+[Fix: 84] Process Sync now waits for Started state with option to bypass
 
 Contributors
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
@@ -311,7 +313,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3DA1435796F776B306EADE0D505CF238</GUID>
+      <GUID>D586FEDD3D87CC075A8E50DAA41B63BF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -626,7 +628,21 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\SMO Activity Tree.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6D7823E484E832C2FE04B337BBC1EF51</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>WaitForState.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>SMO\WaitForState.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>13C0B7BDF58FD16BDCD19AE424CD0336</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -759,7 +775,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D59A595601A7A46C1FB8B6C47F7CEBA</GUID>
+      <GUID>D9AD23D0A233B9A4931CDFE465FCC682</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1046,7 +1062,21 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\Protected\ListPublicAttributes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B4CD4AC09331CF7C2F291389435D65C</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Register Process.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>SMO\Protected\Register Process.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F3B2F5A9E5E6FA8C93CE08A36728BC1F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1081,7 +1111,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DD7DC8452EC5685185D2BA8401EF5FD</GUID>
+      <GUID>1FC7A9E15618D68FB44C07886383231D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1130,7 +1160,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8AAC3AAEB51BFB080273DF2BB56E2868</GUID>
+      <GUID>5697292854628EFAD671CFD858F5970A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1291,7 +1321,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1817E2A4FD60AFAEE5FA39AAB96ED9D0</GUID>
+      <GUID>63F5A5D79174D999FB8D9D2D533CE1D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1368,7 +1398,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Templates\ProcessTemplate (Minimal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AF3C15B4A7626E5DE0539FD508C656FF</GUID>
+      <GUID>62532D17FC298845E965F47D83A81B33</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
