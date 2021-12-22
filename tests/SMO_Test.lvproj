@@ -35,6 +35,9 @@
 			<Item Name="SMO.ErrorInjection" Type="Folder">
 				<Item Name="SMO.ErrorInjection.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.ErrorInjection/SMO.ErrorInjection.lvclass"/>
 			</Item>
+			<Item Name="SMO.DynamicLauncher" Type="Folder">
+				<Item Name="SMO.DynamicLauncher.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.DynamicLauncher/SMO.DynamicLauncher.lvclass"/>
+			</Item>
 			<Item Name="SMO.A.lvclass" Type="LVClass" URL="../_test-support-SMOs/SMO.A/SMO.A.lvclass"/>
 		</Item>
 		<Item Name="Test Cases" Type="Folder">
@@ -56,6 +59,7 @@
 			<Item Name="large-object-count-parallel-test.vi" Type="VI" URL="../_test-cases/large-object-count-parallel-test.vi"/>
 			<Item Name="dependency-listorder-test.vi" Type="VI" URL="../_test-cases/dependency-listorder-test.vi"/>
 			<Item Name="aggregation-lifetime-management.vi" Type="VI" URL="../_test-cases/aggregation-lifetime-management.vi"/>
+			<Item Name="dynamic-dependency-stop-test.vi" Type="VI" URL="../_test-cases/dynamic-dependency-stop-test.vi"/>
 			<Item Name="attributes-test.vi" Type="VI" URL="../_test-cases/attributes-test.vi"/>
 			<Item Name="attributes-identity-test.vi" Type="VI" URL="../_test-cases/attributes-identity-test.vi"/>
 			<Item Name="attributes-owner-test.vi" Type="VI" URL="../_test-cases/attributes-owner-test.vi"/>
@@ -64,6 +68,7 @@
 		<Item Name="Testable Interface" Type="Folder"/>
 		<Item Name="SMO_Test.vipc" Type="Document" URL="../SMO_Test.vipc"/>
 		<Item Name="Run Test Suite.vi" Type="VI" URL="../_test-cases/Run Test Suite.vi"/>
+		<Item Name="process-sync-start-test.vi" Type="VI" URL="../_test-cases/process-sync-start-test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -436,6 +441,13 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BStrip Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BStrip Path - Traditional__ogtk.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BStrip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BStrip Path - Arrays__ogtk.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BStrip Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BStrip Path__ogtk.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BValid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BValid Path - Traditional__ogtk.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BValid Path - Array__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BValid Path - Array__ogtk.vi"/>
+				<Item Name="3494A183FEBB6A11205EA059762AB79BValid Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/3494A183FEBB6A11205EA059762AB79BValid Path__ogtk.vi"/>
 			</Item>
 			<Item Name="SMO.lvclass" Type="LVClass" URL="../../src/SMO/SMO.lvclass"/>
 			<Item Name="Registry-SMO.lvclass" Type="LVClass" URL="../../src/Registry/Registry-SMO.lvclass"/>
@@ -450,6 +462,7 @@
 			<Item Name="Attribute.StartupBehavior.lvclass" Type="LVClass" URL="../../src/Support/Attribute.StartupBehavior/Attribute.StartupBehavior.lvclass"/>
 			<Item Name="Dependency.lvclass" Type="LVClass" URL="../../src/Dependency/Dependency.lvclass"/>
 			<Item Name="Attribute.ErrorHandling.lvclass" Type="LVClass" URL="../../src/Support/Attribute.ErrorHandling/Attribute.ErrorHandling.lvclass"/>
+			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
