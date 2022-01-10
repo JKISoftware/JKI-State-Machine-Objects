@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2021-12-21 20:32:56" Creator="Francois Normandin" Comments="" ID="c6dba435887950d36376c317d3168948">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-12-04 15:52:35" Modified_Date="2022-01-09 16:51:05" Creator="Francois Normandin" Comments="" ID="1f6f721eb4d84371f599121a2175ca80">
   <Library_General_Settings>
     <Package_File_Name>JKI_StateMachineObjects</Package_File_Name>
-    <Library_Version>1.4.0.69</Library_Version>
+    <Library_Version>1.4.0.70</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..</Library_Output_Folder>
@@ -64,6 +64,7 @@ The JKI SMO NI Community Group (https://decibel.ni.com/content/groups/jki-state-
 [Fix: 81] Process registration is now using re-entrancy to speed up sibling classes load time
 [Fix: 83] StopProcess now correctly stops dynamic dependencies that were started within the SMO process
 [Fix: 84] Process Sync now waits for Started state with option to bypass
+[Fix: 85] Destroying a dependency releases the name for reuse
 
 Contributors
 Thanks for all the contributions that led to this release, whether by reporting bugs, requesting features that made it to release or by lending a hand in fixing issues or releasing features:
@@ -313,7 +314,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Temp</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D586FEDD3D87CC075A8E50DAA41B63BF</GUID>
+      <GUID>D3A8611038883A08808177BB4AD317DD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -642,7 +643,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\WaitForState.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>13C0B7BDF58FD16BDCD19AE424CD0336</GUID>
+      <GUID>CFC7EF02F9A6AA949EDAF971C487CCA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -775,7 +776,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Protected</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D9AD23D0A233B9A4931CDFE465FCC682</GUID>
+      <GUID>BEFA17ACCDCEA9777ED85E2FD3211307</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1076,7 +1077,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO\Protected\Register Process.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F3B2F5A9E5E6FA8C93CE08A36728BC1F</GUID>
+      <GUID>27604F489F422B9D727344EADDAE0B47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>2</Parent_Palette_Index>
@@ -1111,7 +1112,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMO.UI\Show User Interface.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1FC7A9E15618D68FB44C07886383231D</GUID>
+      <GUID>D07CD11C33A2E7291F8DB1F7DE5A82AA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1160,7 +1161,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>URI Parsing\Parse URI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5697292854628EFAD671CFD858F5970A</GUID>
+      <GUID>B6EBA2EB00972C1B47F84BF64876306F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1321,7 +1322,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>SMOFacade\Facade\Get Method Prototype.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>63F5A5D79174D999FB8D9D2D533CE1D7</GUID>
+      <GUID>503252A162BD3EE99A498F7FCA75EAC3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1398,7 +1399,7 @@ Ricardo Guilherme Schmidt (@3esmit)
         <Path>Templates\ProcessTemplate (Minimal).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62532D17FC298845E965F47D83A81B33</GUID>
+      <GUID>8CF0A7298674C0EF6E77EBC1FDB2150B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
